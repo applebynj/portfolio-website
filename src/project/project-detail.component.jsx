@@ -15,13 +15,13 @@ class ProjectDetail extends Component {
         return (
             <div>
                 <h1>{project[0].name}</h1>
-                <div className="row">
-                    <div className="col-sm-6 col-md-4">
-                        <div className="thumbnail">
+                <div>
+                    <div>
+                        <div>
                             <img src={project[0].icon} alt={project[0].name} />
                         </div>
                     </div>
-                    <div className="col-sm-6 col-md-4">
+                    <div>
                         <ul>
                             <li><strong>Model</strong>: {project[0].type}</li>
                             <li><strong>Make</strong>: {project[0].date}</li>

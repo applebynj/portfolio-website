@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.site-container {
+    width: 80%;
+    padding: 0 3%;
+    max-width: 1200px;
+    margin: 30px auto 0;
+}
+
+.serif {
+    font-family: 'Source Serif Pro', serif;
+}
+
+#home-hello {
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 25px;
+    font-size: 20px;
+    border-left: 1px solid #979797;
+}
+
+#home-nav {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    font-style: italic;
+    font-weight: 200;
+}
