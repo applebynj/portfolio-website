@@ -6,12 +6,12 @@ import { Link } from 'react-router';
 
 class Project extends Component {
     render(){
-        const projects = this.props.route.data;
+        const projects = this.props.data;
 
         const projectNode = projects.map((project) => {
             var cardStyle = {
-                transform: 'rotate(-' + (project.id - 1) * 10 + 'deg) translate(' + (project.id - 1) * -10 + 'px, 0%)',
-                zIndex: - project.id,
+                transform: 'rotate(-' + (project.id - 1) * 5 + 'deg) translate(' + (project.id - 1) * -50 + 'px, 0%)',
+                zIndex: (100 - project.id),
                 transformOrigin: '50% 100%'
             }
             return (
@@ -46,8 +46,7 @@ class Project extends Component {
         });
         return (
             <div>
-                <h1>Projects page</h1>
-                <ul className="list-group">
+                <ul id="project-cards">
                     {projectNode}
                 </ul>
             </div>

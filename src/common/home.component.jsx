@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import Project from '../project/project.component.jsx'
 
 class Home extends Component {
+
     render(){
+        const projects = this.props.route.data;
+
         return (
             <div className="site-container">
                 <section id="home-hello">
@@ -21,6 +25,12 @@ class Home extends Component {
                         more about me
                     </Link>
                 </section>
+                <section id="home-projects">
+                    <Project data={projects}></Project>
+                </section>
+                <div id="home-projects-label">
+                    <h4 className="serif">Pick a card, any card!</h4>
+                </div>
             </div>);
     }
 }

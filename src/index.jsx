@@ -5,7 +5,6 @@ import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 // Import custom components
 import Home from './common/home.component.jsx'
 import About from './common/about.component.jsx'
-import Project from './project/project.component.jsx'
 import ProjectDetail from './project/project-detail.component.jsx'
 
 const data = [
@@ -17,8 +16,8 @@ const data = [
         tags: ['MEAN Stack',
                'full-stack web development'],
         color: 'teal',
-        icon: 'http://via.placeholder.com/50x50',
-        image: 'http://via.placeholder.com/250x160'
+        icon: 'http://via.placeholder.com/40x40',
+        image: 'http://via.placeholder.com/200x125'
     },
     {
         id: 2,
@@ -30,8 +29,9 @@ const data = [
                'product UX',
                'Bootstrap' ],
         color: 'calm-green',
-        icon: 'http://via.placeholder.com/50x50',
-        image: 'http://via.placeholder.com/250x160'    },
+        icon: 'http://via.placeholder.com/40x40',
+        image: 'http://via.placeholder.com/200x125'
+    },
     {
         id: 3,
         name: 'myCampus',
@@ -44,8 +44,9 @@ const data = [
                'usability studies',
                'prototyping'],
         color: 'dull-red',
-        icon: 'http://via.placeholder.com/50x50',
-        image: 'http://via.placeholder.com/250x160'    },
+        icon: 'http://via.placeholder.com/40x40',
+        image: 'http://via.placeholder.com/200x125'
+    },
     {
         id: 4,
         name: 'myHousing',
@@ -58,15 +59,15 @@ const data = [
                'pain-point analysis',
                'brand redesign',],
         color: 'bright-red',
-        icon: 'http://via.placeholder.com/50x50',
-        image: 'http://via.placeholder.com/250x160'    },
+        icon: 'http://via.placeholder.com/40x40',
+        image: 'http://via.placeholder.com/200x125'
+    },
 ];
 
 render(
     <Router history={browserHistory}>
         <Route path="/" component={Home} data={data}/>
         <Route path="/about" component={About}/>
-        <Route path="/projects" component={Project} data={data}/>
         <Route path="/projects/:name" component={ProjectDetail} data={data}/>
     </Router>,
     document.getElementById('container')

@@ -35,22 +35,36 @@ a{
     width: 50%;
     margin-top: 100px;
     padding-left: 25px;
-    font-size: 20px;
+    font-size: 16px;
     border-left: 1px solid #979797;
 }
 
 #home-nav {
     position: fixed;
-    top: 100px;
-    right: 100px;
+    top: 50px;
+    right: 200px;
     font-style: italic;
     font-weight: 200;
 }
 
+#home-projects {
+    position: absolute;
+    bottom: 500px;
+    right: 450px;
+}
+
+#home-projects-label {
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+    border-top:  1px solid #979797;
+    padding-left: 150px;
+}
+
 .project-card {
     position: absolute;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 225px;
     border: 15px solid deepskyblue;
     border-radius: 8px;
     background-color: #FFFDFD;
@@ -62,7 +76,7 @@ a{
 }
 
 .card-header {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: deepskyblue;
 }
@@ -86,12 +100,12 @@ a{
 .card-header-text {
     float: left;
     color: #FFFFFF;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .card-content {
-    padding: 20px;
+    padding: 12px;
 }
 
 .card-content img {
@@ -103,8 +117,9 @@ a{
 
 .project-tags {
     font-style: italic;
+    font-size: 13px;
     text-align: center;
-    padding: 0px 10px;
+    padding: 0px 0px;
 }
 
 /* Card colors (add const for colors) */
