@@ -167,6 +167,8 @@ a{
 #about-media img {
     float: right;
     margin-bottom: 30px;
+    width: 400px;
+    height: 250px;
 }
 
 #about-text {

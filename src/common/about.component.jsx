@@ -8,13 +8,13 @@ class About extends Component {
             <div className="site-container">
 
                 <section id="about-media">
-                    <img src="http://via.placeholder.com/400x250"/>
+                    <img src="media/img/noah.png"/>
                     <div className="business-card">
                         <div className="business-card-content">
                             <h2 className="serif">Noah Appleby</h2>
                              available January 2018 - August 2018<br/>
                             <span className="font-light">appleby.n@husky.neu.edu</span><br/><br/>
-                            <a href="#" target="_blank"
+                            <a href="media/NoahAppleby_Resume_Fall_2017.pdf" target="_blank"
                                className="font-bold resume">view resume</a>
                             <a href="https://www.github.com/applebynj" target="_blank"
                                className="fa fa-github" aria-hidden="true"></a>
