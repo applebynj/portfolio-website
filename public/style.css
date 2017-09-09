@@ -48,12 +48,17 @@ a{
 }
 
 .project-card {
+    position: absolute;
     height: 400px;
     width: 300px;
     border: 15px solid deepskyblue;
     border-radius: 8px;
     background-color: #FFFDFD;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.project-card:hover {
+    z-index:100 !important;
 }
 
 .card-header {

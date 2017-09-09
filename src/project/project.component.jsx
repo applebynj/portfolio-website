@@ -2,14 +2,21 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 
+
+
 class Project extends Component {
     render(){
         const projects = this.props.route.data;
 
         const projectNode = projects.map((project) => {
+            var cardStyle = {
+                transform: 'rotate(-' + (project.id - 1) * 10 + 'deg) translate(' + (project.id - 1) * -10 + 'px, 0%)',
+                zIndex: - project.id,
+                transformOrigin: '50% 100%'
+            }
             return (
-
-                <section className={'project-card card-' + project.color}>
+                <section className={'project-card card-' + project.color}
+                         style={cardStyle}>
                     <Link
                         to={"/projects/"+project.name}
                         className="list-group-item"
