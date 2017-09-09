@@ -31,12 +31,15 @@ a{
     font-family: 'Source Serif Pro', serif;
 }
 
+.gray-border-left {
+    border-left: 1px solid #979797;
+    padding-left: 25px;
+}
+
 #home-hello {
     width: 50%;
     margin-top: 100px;
-    padding-left: 25px;
     font-size: 16px;
-    border-left: 1px solid #979797;
 }
 
 #home-nav {
@@ -153,4 +156,43 @@ a{
 
 .card-dull-red .card-header{
     background-color: #C24447;
+}
+
+#about-media {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+}
+
+#about-media img {
+    float: right;
+    margin-bottom: 30px;
+}
+
+#about-text {
+    float: right;
+    width: 45%;
+    margin-top: 200px;
+    font-size: 14px;
+}
+
+.business-card {
+    float: right;
+    height: 190px;
+    width: 300px;
+    background-color: #FFFDFD;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.business-card-content {
+    padding: 10px 20px;
+}
+
+.business-card-content .fa {
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.business-card-content .resume {
+    padding-right: 80px;
 }
