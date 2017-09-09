@@ -8,6 +8,18 @@ a{
     color: black;
 }
 
+.font-bold {
+    font-weight: 600;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-light {
+    font-weight: 200;
+}
+
 .site-container {
     width: 80%;
     padding: 0 3%;
@@ -33,4 +45,92 @@ a{
     right: 100px;
     font-style: italic;
     font-weight: 200;
+}
+
+.project-card {
+    height: 400px;
+    width: 300px;
+    border: 15px solid deepskyblue;
+    border-radius: 8px;
+    background-color: #FFFDFD;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.card-header {
+    height: 100px;
+    width: 100%;
+    background-color: deepskyblue;
+}
+
+.card-header-icon {
+    float: left;
+    width: 33%;
+    height: 100%;
+    line-height: 125px;
+}
+
+.card-header-icon img {
+    display: block;
+    margin: auto;
+
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.card-header-text {
+    float: left;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content img {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.project-tags {
+    font-style: italic;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+/* Card colors (add const for colors) */
+.card-teal {
+    border-color: #009788;
+}
+
+.card-teal .card-header{
+    background-color: #009788;
+}
+
+.card-bright-red {
+    border-color: #D1232A;
+}
+
+.card-bright-red .card-header{
+    background-color: #D1232A;
+}
+
+.card-calm-green {
+    border-color: #29B57A;
+}
+
+.card-calm-green .card-header{
+    background-color: #29B57A;
+}
+
+.card-dull-red {
+    border-color: #C24447;
+}
+
+.card-dull-red .card-header{
+    background-color: #C24447;
 }

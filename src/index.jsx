@@ -16,7 +16,9 @@ const data = [
         date: 'Summer 2017',
         tags: ['MEAN Stack',
                'full-stack web development'],
-        icon: ''
+        color: 'teal',
+        icon: 'http://via.placeholder.com/50x50',
+        image: 'http://via.placeholder.com/250x160'
     },
     {
         id: 2,
@@ -27,8 +29,9 @@ const data = [
                'website development',
                'product UX',
                'Bootstrap' ],
-        icon: ''
-    },
+        color: 'calm-green',
+        icon: 'http://via.placeholder.com/50x50',
+        image: 'http://via.placeholder.com/250x160'    },
     {
         id: 3,
         name: 'myCampus',
@@ -40,8 +43,9 @@ const data = [
                'user testing',
                'usability studies',
                'prototyping'],
-        icon: ''
-    },
+        color: 'dull-red',
+        icon: 'http://via.placeholder.com/50x50',
+        image: 'http://via.placeholder.com/250x160'    },
     {
         id: 4,
         name: 'myHousing',
@@ -53,8 +57,9 @@ const data = [
                'Sketch',
                'pain-point analysis',
                'brand redesign',],
-        icon: ''
-    },
+        color: 'bright-red',
+        icon: 'http://via.placeholder.com/50x50',
+        image: 'http://via.placeholder.com/250x160'    },
 ];
 
 render(

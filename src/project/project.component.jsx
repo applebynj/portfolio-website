@@ -8,14 +8,33 @@ class Project extends Component {
 
         const projectNode = projects.map((project) => {
             return (
-                <li>
+
+                <section className={'project-card card-' + project.color}>
                     <Link
                         to={"/projects/"+project.name}
                         className="list-group-item"
                         key={project.id}>
-                        {project.name}
+                        <div className="card-header">
+                            <div className="card-header-icon">
+                                <img src={project.icon}/>
+                            </div>
+                            <div className="card-header-text">
+                                <div className="font-bold">{project.name}</div>
+                                <div className="font-regular">{project.type}</div>
+                                <div className="font-light">{project.date}</div>
+                            </div>
+                        </div>
+                        <div className="card-content">
+                            <img src={project.image}/>
+                            <p className="font-light project-tags">
+                                {project.tags.map((tag, i) => <span key={i}>
+                                    {!!i && ", "}
+                                    {tag}
+                                    </span> )}
+                            </p>
+                        </div>
                     </Link>
-                </li>
+                </section>
             )
         });
         return (
