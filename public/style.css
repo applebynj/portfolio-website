@@ -160,7 +160,7 @@ a{
 
 #about-media {
     float: left;
-    width: 50%;
+    width: 40%;
     margin-top: 100px;
 }
 
@@ -170,8 +170,9 @@ a{
 }
 
 #about-text {
-    float: right;
+    float: left;
     width: 45%;
+    margin-left: 50px;
     margin-top: 200px;
     font-size: 14px;
 }
