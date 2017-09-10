@@ -8,6 +8,7 @@
     "build": "webpack",
     "serve": "serve ./public",
     "start": "node index.js",
+    "heroku-prebuild": "npm install --only=dev",
     "postinstall": "npm run build"
   },
   "repository": {
