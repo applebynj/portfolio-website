@@ -16,8 +16,8 @@ const data = [
         tags: ['MEAN Stack',
                'full-stack web development'],
         color: 'teal',
-        icon: 'http://via.placeholder.com/40x40',
-        image: 'http://via.placeholder.com/200x125'
+        icon: 'media/img/wander/logo.png',
+        image: 'media/img/wander/preview.png'
     },
     {
         id: 2,
@@ -29,9 +29,8 @@ const data = [
                'product UX',
                'Bootstrap' ],
         color: 'calm-green',
-        icon: 'http://via.placeholder.com/40x40',
-        image: 'http://via.placeholder.com/200x125'
-    },
+        icon: 'media/img/MeetingHabits/logo.png',
+        image: 'media/img/MeetingHabits/preview.png'    },
     {
         id: 3,
         name: 'myCampus',
@@ -44,9 +43,8 @@ const data = [
                'usability studies',
                'prototyping'],
         color: 'dull-red',
-        icon: 'http://via.placeholder.com/40x40',
-        image: 'http://via.placeholder.com/200x125'
-    },
+        icon: 'media/img/myCampus/logo.png',
+        image: 'media/img/myCampus/preview.png'    },
     {
         id: 4,
         name: 'myHousing',
@@ -59,9 +57,8 @@ const data = [
                'pain-point analysis',
                'brand redesign',],
         color: 'bright-red',
-        icon: 'http://via.placeholder.com/40x40',
-        image: 'http://via.placeholder.com/200x125'
-    },
+        icon: 'media/img/myHousing/logo.png',
+        image: 'media/img/myHousing/preview.png'    },
 ];
 
 render(

@@ -94,6 +94,8 @@ a{
 .card-header-icon img {
     display: block;
     margin: auto;
+    width: 40px;
+    height: 40px;
 
     position: relative;
     top: 45%;
@@ -112,10 +114,14 @@ a{
 }
 
 .card-content img {
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
     display: block;
+    width: 200px;
+    height: 125px;
     margin: auto;
     margin-bottom: 20px;
+
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+
 }
 
 .project-tags {
