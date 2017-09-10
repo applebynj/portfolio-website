@@ -42,7 +42,7 @@ a{
     font-size: 16px;
 }
 
-#home-nav {
+.nav {
     position: fixed;
     top: 50px;
     right: 200px;
@@ -65,13 +65,16 @@ a{
 }
 
 .project-card {
-    position: absolute;
     height: 300px;
     width: 225px;
     border: 15px solid deepskyblue;
     border-radius: 8px;
     background-color: #FFFDFD;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+#home-projects .project-card {
+    position: absolute;
 }
 
 .project-card:hover {
@@ -181,8 +184,12 @@ a{
     float: left;
     width: 45%;
     margin-left: 50px;
-    margin-top: 200px;
+    margin-top: 180px;
     font-size: 14px;
+}
+
+#about-text div {
+    margin-bottom: 40px;
 }
 
 .business-card {
@@ -204,4 +211,19 @@ a{
 
 .business-card-content .resume {
     padding-right: 80px;
+}
+
+#project-details-card{
+    position: absolute;
+    width: 30%;
+    float: left;
+    top: 50%;
+    margin-top: -150px; /* Half of the height */
+}
+
+#project-details-page{
+    float:left;
+    position: absolute;
+    margin-left: 30%;
+    top: 50%;
 }

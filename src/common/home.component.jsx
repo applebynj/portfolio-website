@@ -19,7 +19,7 @@ class Home extends Component {
                         Let’s have some fun.
                     </i>
                 </section>
-                <section id="home-nav">
+                <section className="nav">
                     <Link
                         to={"/about"}>
                         more about me

@@ -49,7 +49,7 @@ class About extends Component {
                     </div>
                 </section>
 
-                <section id="home-nav">
+                <section className="nav">
                     <Link
                         to={"/"}>
                        back to projects

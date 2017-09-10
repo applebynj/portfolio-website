@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-
-
-
 class Project extends Component {
     render(){
         const projects = this.props.data;
@@ -13,7 +10,7 @@ class Project extends Component {
                 transform: 'rotate(-' + (project.id - 1) * 5 + 'deg) translate(' + (project.id - 1) * -50 + 'px, 0%)',
                 zIndex: (100 - project.id),
                 transformOrigin: '50% 100%'
-            }
+            };
             return (
                 <section className={'project-card card-' + project.color}
                          style={cardStyle}>
