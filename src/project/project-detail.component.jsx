@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import ProjectPage from './projectPage.jsx';
 
 class ProjectDetail extends Component {
     render(){
@@ -44,7 +45,7 @@ class ProjectDetail extends Component {
                     </div>
                 </section>
                 <section id="project-details-page" className="gray-border-left">
-                    <h1 className="serif">Project detail pages coming soon!</h1>
+                     <ProjectPage data={project.content}></ProjectPage>
                 </section>
                 <section className="nav">
                     <Link

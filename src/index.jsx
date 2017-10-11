@@ -17,7 +17,11 @@ const data = [
                'full-stack web development'],
         color: 'teal',
         icon: 'media/img/wander/logo.png',
-        image: 'media/img/wander/preview.png'
+        image: 'media/img/wander/preview.png',
+        content: [{head: 'Test', body:'testing testing testing blah blah blah', img:'MeetingHabits/logo.png'},
+            {head:'test', body:'test', img:'MeetingHabits/logo.png'},
+            {head:'test', body:'test', img:'MeetingHabits/logo.png'},
+            {head:'test', body:'test', img:'MeetingHabits/logo.png'}]
     },
     {
         id: 2,
@@ -30,7 +34,8 @@ const data = [
                'Bootstrap' ],
         color: 'calm-green',
         icon: 'media/img/MeetingHabits/logo.png',
-        image: 'media/img/MeetingHabits/preview.png'    },
+        image: 'media/img/MeetingHabits/preview.png',
+    },
     {
         id: 3,
         name: 'myCampus',
