@@ -20,10 +20,10 @@ class ProjectPage extends Component {
                 <div id="project-details-card">
                     <ProjectCard data={project}/>
                     <div id="card-links">
-                        <a href={project.githubRepo} target="_blank"
-                           className="fa fa-github" aria-hidden="true"></a>
-                        <a href={project.liveLink} target="_blank"
-                           className="fa fa-external-link-square" aria-hidden="true"></a>
+                        {project.githubRepo && <a href={project.githubRepo} target="_blank"
+                           className="fa fa-github" aria-hidden="true"></a>}
+                        {project.liveLink && <a href={project.liveLink} target="_blank"
+                           className="fa fa-external-link-square" aria-hidden="true"></a>}
                     </div>
                 </div>
 
