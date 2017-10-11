@@ -52,13 +52,13 @@ a{
 
 #home-projects {
     position: absolute;
-    bottom: 500px;
+    bottom: 575px;
     right: 450px;
 }
 
 #home-projects-label {
     position: absolute;
-    bottom: 20px;
+    bottom: 100px;
     right: 200px;
     border-top:  1px solid #979797;
     padding-left: 150px;
@@ -264,3 +264,26 @@ a{
 a:hover {
     text-decoration: underline;
 }
+
+#text-banner {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    margin: 0px -8px;
+    background-color: #009999;
+    opacity: 0.75;
+}
+
+#text-banner .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing:border-box;
+}
+
+#text-banner .container h3 {
+    font-family: 'Source Sans Pro', serif;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+    text-align: center; /* Moves the text banner text to the left, center, or right -- your preference! */
+}​
