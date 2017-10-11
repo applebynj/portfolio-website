@@ -240,6 +240,11 @@ a{
     margin-right: 10%;
     top: 15%;
     margin-bottom: 50px;
+
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #project-details-page section{
