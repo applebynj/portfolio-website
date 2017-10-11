@@ -9,7 +9,8 @@
     "serve": "serve ./public",
     "start": "node index.js",
     "heroku-prebuild": "npm install --only=dev",
-    "postinstall": "npm run build"
+    "postinstall": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/applebynj/applebynj.github.io/issues"
   },
-  "homepage": "https://applebynj.github.io",
+  "homepage": "https://applebynj.github.io/portfolio-website",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^6.2.4",
