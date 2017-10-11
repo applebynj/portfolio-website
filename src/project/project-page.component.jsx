@@ -17,7 +17,9 @@ class ProjectPage extends Component {
 
         return (
             <div className="site-container">
-                <ProjectCard data={project}/>
+                <div id="project-details-card">
+                    <ProjectCard data={project}/>
+                </div>
 
                 <section id="project-details-page" className="gray-border-left">
                      <ProjectDetails data={project.content}></ProjectDetails>

@@ -225,5 +225,24 @@ a{
     float:left;
     position: absolute;
     margin-left: 30%;
+    margin-right: 10%;
     top: 15%;
+}
+
+#project-details-page section{
+    margin-bottom: 60px;
+}
+
+#project-details-page img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+#project-details-page a{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
 }
