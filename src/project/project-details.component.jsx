@@ -21,7 +21,7 @@ class ProjectDetails extends Component {
                 <section>
                     <h2>{content.head}</h2>
                     {content.img && <img src= {'../media/img/' + content.img}/>}
-                    {content.link && <a href={content.link}>{content.body}</a>}
+                    {content.link && <a href={content.link} target="_blank">{content.body}</a>}
                     {!content.link &&<p>{content.body}</p>}
                     {content.list && <ul>{listContent}</ul>}
                 </section>
