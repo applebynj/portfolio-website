@@ -83,7 +83,6 @@ a{
     #home-projects {
         position: relative;
         margin: 50px auto 100px auto;
-        align-content: center;
     }
 
     #project-cards {
@@ -338,13 +337,29 @@ a{
     padding-right: 80px;
 }
 
-#project-details-card{
-    position: fixed;
-    width: 30%;
-    float: left;
-    top: 50%;
-    margin-top: -150px; /* Half of the height */
+
+
+@media (min-width: 768px) {
+    #project-details-card{
+        position: fixed;
+        width: 30%;
+        float: left;
+        top: 50%;
+        margin-top: -150px; /* Half of the height */
+    }
 }
+
+@media (max-width: 768px) {
+    #project-details-card .project-card{
+        margin: auto;
+        margin-top: 150px; /* Half of the height */
+    }
+    #project-details-card #card-links{
+        margin: auto;
+        margin-bottom: 50px; /* Half of the height */
+    }
+}
+
 
 #project-details-card #card-links{
     width: 255px;
@@ -357,20 +372,26 @@ a{
     margin-right: 20px;
 }
 
-
 #project-details-page{
-    float:left;
-    position: absolute;
-    margin-left: 30%;
-    margin-right: 10%;
-    top: 15%;
     margin-bottom: 50px;
-
-    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+@media (min-width: 768px) {
+    #project-details-page{
+        float:left;
+        position: absolute;
+        margin-left: 30%;
+        margin-right: 10%;
+        top: 15%;
+
+        min-height: 80vh;
+    }
+}
+
 
 #project-details-page section{
     margin-bottom: 60px;
