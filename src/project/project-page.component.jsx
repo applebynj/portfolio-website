@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import ProjectCard from './project-card.jsx';
-import ProjectDetails from './project-details.jsx';
+import ProjectCard from './project-card.component.jsx';
+import ProjectDetails from './project-details.component.jsx';
 
 class ProjectPage extends Component {
     render(){

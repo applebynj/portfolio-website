@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 class ProjectDetails extends Component {
 
     render() {
-        console.log('ah');
         const content = this.props.data;
 
         const contentNode = content.map((content) => {

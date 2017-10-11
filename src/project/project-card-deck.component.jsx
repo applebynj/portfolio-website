@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import ProjectCard from './project-card.jsx';
+import ProjectCard from './project-card.component.jsx';
 
 class ProjectCardDeck extends Component {
     render(){
