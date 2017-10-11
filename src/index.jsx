@@ -69,6 +69,7 @@ const data = [
         color: 'calm-green',
         icon: 'media/img/MeetingHabits/logo.png',
         image: 'media/img/MeetingHabits/preview.png',
+        liveLink: 'http://meetinghabits.com/',
         content: [{head:"This page is coming soon, my apologies!"
         },{body:"In the meantime, check out the summary my team wrote for this project here!",
             link:"https://web.northeastern.edu/scout/project/mh/"
