@@ -19,6 +19,12 @@ class ProjectPage extends Component {
             <div className="site-container">
                 <div id="project-details-card">
                     <ProjectCard data={project}/>
+                    <div id="card-links">
+                        <a href={project.githubRepo} target="_blank"
+                           className="fa fa-github" aria-hidden="true"></a>
+                        <a href={project.liveLink} target="_blank"
+                           className="fa fa-external-link-square" aria-hidden="true"></a>
+                    </div>
                 </div>
 
                 <section id="project-details-page" className="gray-border-left">

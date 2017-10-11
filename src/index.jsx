@@ -18,6 +18,8 @@ const data = [
         color: 'teal',
         icon: 'media/img/wander/logo.png',
         image: 'media/img/wander/preview.png',
+        liveLink: 'https://appleby-noah-webdev-project.herokuapp.com/',
+        githubRepo: 'https://github.com/applebynj/wander',
         content: [
             {body:"Wander is a social networking site that I built in the Summer of 2017 for a "
                   + "web development course. Born out of my frustration with falling into a fairly "
@@ -37,6 +39,8 @@ const data = [
                         'Relation between domain objects: A review belongs to a place.',
                         'Relation between users and domain objects: A user can write a new review, edit/delete existing ones.']
             },
+            {   body: "check out the repo's Github Wiki for more process info!",
+                link:'https://appleby-noah-webdev-project.herokuapp.com/'},
             {head:'API Evaluation',
                 img:'wander/api-eval.png',
                 body:'Once I had my idea together, I evaluated my API to ensure that it was possible. '
