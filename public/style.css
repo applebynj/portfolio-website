@@ -290,10 +290,15 @@ a:hover {
     box-sizing:border-box;
 }
 
-#text-banner .container h3 {
+#text-banner .container h4 {
     font-family: 'Source Sans Pro', serif;
     font-weight: 100;
     font-style: italic;
     color: white;
     text-align: center; /* Moves the text banner text to the left, center, or right -- your preference! */
-}​
+}
+
+ #text-banner .container h4 a {
+     color: white;
+     font-weight: 400;
+ }​

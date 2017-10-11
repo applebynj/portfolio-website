@@ -6,7 +6,8 @@ class Banner extends Component {
     render(){
         return (
             <div id="text-banner">
-                <div className="container"><h3>This site is a work in progress, please enjoy this MVP in the meantime! :)</h3></div>
+                <div className="container"><h4>This site is a work in progress MVP! My old site can be found <a href="https://applebyn.myportfolio.com">here.</a>
+                </h4></div>
             </div>
         );
     }
