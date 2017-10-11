@@ -15,6 +15,8 @@ class ProjectPage extends Component {
             }
         })[0];
 
+        project.cardStyle = {};
+
         return (
             <div className="site-container">
                 <div id="project-details-card">
