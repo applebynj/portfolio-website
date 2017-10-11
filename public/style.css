@@ -246,11 +246,36 @@ a{
     margin-top: 100px;
 }
 
+@media (max-width: 768px) {
+    #about-media {
+        float: none;
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
 #about-media img {
     float: right;
     margin-bottom: 30px;
     width: 400px;
     height: 250px;
+}
+
+@media (max-width: 1200px) {
+    #about-media img {
+        width: 350px;
+        height: 218.75px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about-media img {
+        float: none;
+        display: block;
+        margin: auto;
+    }
 }
 
 #about-text {
@@ -260,6 +285,25 @@ a{
     margin-top: 180px;
     font-size: 14px;
 }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    #about-text {
+        width: 50%;
+        margin-left: 20px;
+        margin-top: 120px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    #about-text {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+
 
 #about-text div {
     margin-bottom: 40px;
@@ -271,6 +315,14 @@ a{
     width: 300px;
     background-color: #FFFDFD;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+@media (max-width: 768px) {
+    .business-card  {
+        float: none;
+        display: block;
+        margin: 25px auto;
+    }
 }
 
 .business-card-content {
