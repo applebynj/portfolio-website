@@ -214,7 +214,7 @@ a{
 }
 
 #project-details-card{
-    position: absolute;
+    position: fixed;
     width: 30%;
     float: left;
     top: 50%;
