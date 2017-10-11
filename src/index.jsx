@@ -5,7 +5,7 @@ import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 // Import custom components
 import Home from './common/home.component.jsx'
 import About from './common/about.component.jsx'
-import ProjectDetail from './project/project-detail.component.jsx'
+import ProjectPage from './project/project-page.component.jsx'
 
 const data = [
     {
@@ -70,7 +70,7 @@ render(
     <Router history={browserHistory}>
         <Route path="/" component={Home} data={data}/>
         <Route path="/about" component={About}/>
-        <Route path="/projects/:name" component={ProjectDetail} data={data}/>
+        <Route path="/projects/:name" component={ProjectPage} data={data}/>
     </Router>,
     document.getElementById('container')
 );

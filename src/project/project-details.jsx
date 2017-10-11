@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-class ProjectPage extends Component {
+class ProjectDetails extends Component {
 
     render() {
+        console.log('ah');
         const content = this.props.data;
 
         const contentNode = content.map((content) => {
@@ -25,4 +26,4 @@ class ProjectPage extends Component {
     }
 }
 
-export default ProjectPage
+export default ProjectDetails

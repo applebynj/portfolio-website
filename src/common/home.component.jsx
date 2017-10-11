@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import Project from '../project/project.component.jsx'
+import ProjectCardDeck from '../project/project-card-deck.component.jsx'
 
 class Home extends Component {
 
@@ -26,7 +26,7 @@ class Home extends Component {
                     </Link>
                 </section>
                 <section id="home-projects">
-                    <Project data={projects}></Project>
+                    <ProjectCardDeck data={projects}></ProjectCardDeck>
                 </section>
                 <div id="home-projects-label">
                     <h4 className="serif">Pick a card, any card!</h4>
