@@ -267,7 +267,12 @@ a{
 }
 
 a:hover {
-    text-decoration: underline;
+     text-decoration: underline;
+}
+
+.fa:hover {
+    text-decoration: none;
+    opacity: 0.75;
 }
 
 #text-banner {
