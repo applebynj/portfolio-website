@@ -69,7 +69,10 @@ const data = [
         color: 'calm-green',
         icon: 'media/img/MeetingHabits/logo.png',
         image: 'media/img/MeetingHabits/preview.png',
-        content: [{head:"This page is coming soon, apologies!"}]
+        content: [{head:"This page is coming soon, my apologies!"
+        },{body:"In the meantime, check out the summary my team wrote for this project here!",
+            link:"https://web.northeastern.edu/scout/project/mh/"
+        }]
     },
     {
         id: 3,
@@ -85,7 +88,7 @@ const data = [
         color: 'dull-red',
         icon: 'media/img/myCampus/logo.png',
         image: 'media/img/myCampus/preview.png',
-        content: [{head:"This page is coming soon, apologies!"}]
+        content: [{head:"This page is coming soon, my apologies!"}]
     },
     {
         id: 4,
