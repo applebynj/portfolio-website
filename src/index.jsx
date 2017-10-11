@@ -102,10 +102,10 @@ const data = [
         icon: 'media/img/myHousing/logo.png',
         image: 'media/img/myHousing/preview.png',
         liveLink: 'https://marvelapp.com/1j8i6d4',
-        content: [{body: "In the Spring of 2016 I took an introductory course to the Design Process, "
-                         + "and I fell in love with it. As a final project, we were tasked with designing "
-                         + "a solution to a frustrating user experience on our campus. My group chose the "
-                         + "housing selection process at Northeastern."
+        content: [{body: "In the Spring of 2016 I took an introductory course to the Design Thinking Process, "
+                         + "which ignited my passion for design. As a final project, we were tasked with "
+                         + "designing a solution to a frustrating user experience on our campus. My group "
+                         + "chose the housing selection process at Northeastern."
             },
             {img:'myHousing/map-screen.png'
             },
