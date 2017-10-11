@@ -101,7 +101,41 @@ const data = [
         color: 'bright-red',
         icon: 'media/img/myHousing/logo.png',
         image: 'media/img/myHousing/preview.png',
-        content: [{head:"This page is coming soon, apologies!"}]
+        liveLink: 'https://marvelapp.com/1j8i6d4',
+        content: [{body: "In the Spring of 2016 I took an introductory course to the Design Process, "
+                         + "and I fell in love with it. As a final project, we were tasked with designing "
+                         + "a solution to a frustrating user experience on our campus. My group chose the "
+                         + "housing selection process at Northeastern."
+            },
+            {img:'myHousing/map-screen.png'
+            },
+            {head:'Empathize',
+                img:'myHousing/data.png',
+                body:'After deciding on an issue through casual interviews with our peers, we began '
+                     + 'to collect mass data through an online survey sent out to our peers. This survey '
+                     + 'collected demographics, facts about their housing situation, and their opinion '
+                     + 'on it as well. We recieved 220 responses and reviewed this data to find special '
+                     + 'cases whom we reached out to for an in-depth, in-person interview.'
+            }, {head:'Define the Problem & Ideate',
+                img:'myHousing/persona.png',
+                body:'To digest all of this data, we identified four key situations that we saw in our data '
+                     + "and created personas for them. We then organized our problems and generated 'how might "
+                     + "we' statements, to which we brainstormed answers. Through sketching rough ideas "
+                     + "individually, we generated a great amount of potential solutions."
+            }, {head:'Prototype',
+                img:'myHousing/lowfi-wireframe.png',
+                body:'Next, we created low-fidelity prototypes of our proposed solution in order to '
+                     + 'be able to test it on users. These prototypes lack any '
+                     + 'brand or identity and focus simply on the interface, which allowed other group '
+                     + 'members to work on the brand in parallel.'
+            }, {head:'Final Interactive Prototype',
+                img:'myHousing/highfi-wireframe.png',
+                body:'Finally, we created high fidelity prototypes based around our established brand. '
+                     + "We used Invision to bring this vision to life and make it 'clickable', and did "
+                     + "final user testing and pain-point analysis to inform one final iteration."
+            }, {   body: 'check out the interactive prototype here',
+                link:'https://marvelapp.com/1j8i6d4'
+            }]
     },
 ];
 
