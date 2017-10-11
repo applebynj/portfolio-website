@@ -349,6 +349,16 @@ a{
     }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    #project-details-card .project-card{
+        margin-left: -50px;
+    }
+    #project-details-card #card-links{
+        margin-left: -50px;
+
+    }
+}
+
 @media (max-width: 768px) {
     #project-details-card .project-card{
         margin: auto;
