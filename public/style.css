@@ -443,6 +443,10 @@ a:hover {
      text-decoration: underline;
 }
 
+.project-card a:hover {
+    text-decoration: none;
+}
+
 .fa:hover {
     text-decoration: none;
     opacity: 0.75;
