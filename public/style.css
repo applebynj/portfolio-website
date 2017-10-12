@@ -156,7 +156,7 @@ a{
     -moz-transform: translate(350px,0); /** Firefox **/
 }
 
-.preload {
+.preload, #project-details-card .project-card {
     transform: none !important;
     -webkit-transform: none !important;
     -o-transform: none !important;
