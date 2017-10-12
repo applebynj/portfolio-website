@@ -104,7 +104,7 @@ const data = [
                'interactive prototype',
                'Sketch',
                'pain-point analysis',
-               'brand redesign',],
+               'brand redesign'],
         color: 'bright-red',
         icon: 'media/img/myHousing/logo.png',
         image: 'media/img/myHousing/preview.png',

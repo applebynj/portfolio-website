@@ -4,6 +4,11 @@ import ProjectCard from './project-card.component.jsx';
 import ProjectDetails from './project-details.component.jsx';
 
 class ProjectPage extends Component {
+
+    componentDidMount () {
+        window.scrollTo(0, 0)
+    }
+    
     render(){
         const projects = this.props.route.data;
         //url param
