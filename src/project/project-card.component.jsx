@@ -1,12 +1,38 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
 class ProjectCard extends Component {
+
+    componentDidMount() {
+        var $this = $(ReactDOM.findDOMNode(this));
+        setTimeout(
+            function()
+            {$this.removeClass("preload"); //TODO: replace this with a sane approach
+            }, 500);
+    };
+
+    mouseOver(id, project) {
+            $('.project-card').not("#initial-card").hover(function() {
+                if(id != 1) {
+                    $(this).css('transform',
+                                'rotate(-' + (id - 1) * 5 + 'deg) translate(' + (id - 1) * -50 + 'px, -100px)');
+                } else {
+                    $(this).css('transform',
+                                'rotate(-' + (id - 1) * 5 + 'deg) translate(' + (id - 1) * -50 + 'px, 0px)');
+                }
+            }, function() {
+                $(this).css('transform',
+                            'rotate(-' + (id - 1) * 5 + 'deg) translate(' + (id - 1) * -50 + 'px, 0px)');
+            });
+    };
+
     render(){
         const project = this.props.data;
+
         return (
-            <section className={'project-card card-' + project.color}
-                     style={project.cardStyle}>
+            <section className={'project-card card-' + project.color + ' preload'}
+                     style={project.cardStyle} onMouseEnter = {() => { {this.mouseOver(project.id, project)}}}>
                 <Link
                     to={"/projects/"+project.name}
                     className="list-group-item"

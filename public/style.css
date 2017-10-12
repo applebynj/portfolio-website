@@ -150,7 +150,24 @@ a{
 }
 
 .project-card:hover {
-    z-index:100 !important;
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+
+.preload {
+    transform: none !important;
+    -webkit-transform: none !important;
+    -o-transform: none !important;
+    -moz-transform: none !important;
+}
+
+.project-card {
+    transition: all 1s;
+    -webkit-transition: all 1s; /** Chrome & Safari **/
+    -moz-transition: all 1s; /** Firefox **/
+    -o-transition: all 1s; /** Opera **/
 }
 
 .card-header {

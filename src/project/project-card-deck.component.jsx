@@ -10,11 +10,15 @@ class ProjectCardDeck extends Component {
             project.cardStyle = {
                 transform: 'rotate(-' + (project.id - 1) * 5 + 'deg) translate(' + (project.id - 1) * -50 + 'px, 0%)',
                 zIndex: (100 - project.id),
-                transformOrigin: '50% 100%'
+                transformOrigin: '50% 100%',
             };
 
+            project.hover = {
+                transform:'rotate(-' + (project.id - 1) * 5 + 'deg) translate(' + (project.id - 1) * -50 + 'px, 50px)',
+            }
+
             return (
-                <ProjectCard data={project}/>
+                <ProjectCard data={project} id={project.id==1 ? 'initial-card' : ''}/>
             )
         });
         return (

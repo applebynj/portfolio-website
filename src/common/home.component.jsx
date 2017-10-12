@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import ProjectCardDeck from '../project/project-card-deck.component.jsx'
 import Banner from './banner.component.jsx';
 
+
 class Home extends Component {
 
     render(){
