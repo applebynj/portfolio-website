@@ -62,7 +62,7 @@ a{
 }
 
 @media (min-width: 1200px) {
-    #home-projects {
+    #home-projects:not(.all-cards) {
         position: absolute;
         bottom: 530px;
         right: 450px;
@@ -70,7 +70,7 @@ a{
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-    #home-projects {
+    #home-projects:not(.all-cards) {
         position: relative;
         height: 400px;
         margin-top: 20px;
@@ -148,6 +148,31 @@ a{
         position: absolute;
     }
 }
+
+/* for when user wants to see all cards */
+
+@media (min-width: 769px) {
+
+    #home-projects.all-cards {
+        margin: 50px 0px;
+        height: 100%;
+        text-align: center;
+    }
+
+    #project-cards.all-cards {
+        width: 550px;
+        margin: auto;
+    }
+
+    #home-projects .project-card.all-cards {
+        display:inline-block;
+        position: relative;
+        -webkit-transform: none !important;
+        transform: none !important;
+        margin: 10px;
+    }
+}
+
 
 .project-card:hover {
     transform: translate(350px,0);
