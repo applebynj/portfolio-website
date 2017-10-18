@@ -14,7 +14,7 @@ class About extends Component {
                                 <h2 className="serif">Noah Appleby</h2>
                                  available January 2018 - August 2018<br/>
                                 <span className="font-light">appleby.n@husky.neu.edu</span><br/><br/>
-                                <a href="media/NoahAppleby_Resume_Fall_2017.pdf" target="_blank"
+                                <a href="https://drive.google.com/open?id=0Bww7MJCUkyYJdEVqdmtwZDRzdFE" target="_blank"
                                    className="font-bold resume">view resume</a>
                                 <a href="https://www.github.com/applebynj" target="_blank"
                                    className="fa fa-github" aria-hidden="true"></a>
