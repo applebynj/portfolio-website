@@ -11,10 +11,14 @@ class Home extends Component {
             $('#home-projects').removeClass("all-cards");
             $('#project-cards').removeClass("all-cards");
             $('.project-card').removeClass("all-cards");
+            $('#home-projects-label').removeClass("all-cards");
+            $('#home-projects-label button').html("show all cards");
         } else {
             $('#home-projects').addClass("all-cards");
             $('#project-cards').addClass("all-cards");
             $('.project-card').addClass("all-cards");
+            $('#home-projects-label').addClass("all-cards");
+            $('#home-projects-label button').html("show hand of cards");
         }
     };
 
@@ -45,7 +49,7 @@ class Home extends Component {
                     </section>
                     <div id="home-projects-label">
                         <h4 className="serif">Pick a card, any card!</h4>
-                        <button type="button" onClick={() => {{this.showAllCards()}}}>just show me all the cards!</button>
+                        <button type="button" onClick={() => {{this.showAllCards()}}}>show all cards</button>
                     </div>
                 </div>
                 <Banner/>

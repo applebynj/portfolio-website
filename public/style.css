@@ -8,6 +8,21 @@ a{
     color: black;
 }
 
+button {
+    border: 2px teal solid;
+    background-color: transparent;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+    font-size: 12px;
+    outline: none;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
+
 .font-bold {
     font-weight: 600;
 }
@@ -98,15 +113,29 @@ a{
     border-top:  1px solid #979797;
 }
 
+#home-projects-label button {
+    float: right;
+}
 
 @media (min-width: 1200px) {
-    #home-projects-label {
+    #home-projects-label:not(.all-cards) {
         padding-left: 100px;
         position: absolute;
         bottom: 80px;
         right: 200px;
     }
+
+    #home-projects-label.all-cards {
+        margin-left: 60%;
+        width: 250px;
+        float: right;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        text-align: right;
+        font-size: 16px;
+    }
 }
+
 @media (min-width: 769px) and (max-width: 1200px) {
     #home-projects-label {
         margin-left: 60%;
@@ -501,7 +530,8 @@ a:hover {
     text-align: center; /* Moves the text banner text to the left, center, or right -- your preference! */
 }
 
- #text-banner .container h4 a {
-     color: white;
-     font-weight: 400;
- }​
+#text-banner .container h4 a {
+ color: white;
+ font-weight: 400;
+}​
+
