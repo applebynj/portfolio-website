@@ -48,7 +48,7 @@ const data = [
                      + 'for what was to come. I faced an unexpected challenge in that the calls to the '
                      + 'API had to come from my backend Express server, in order to be recognized by Google.'},
             {head:'User Roles',
-                img:'wander/api-eval.png',
+                img:'wander/admin-screen.png',
                 body:'The site supports industry standard user roles, such as an admin who can access the '
                      + 'admin panel shown above which delivers frontend CRUD permission to domain objects. '
                      + 'Additionally, an anonymous role is supported so that users can browse the site before '
