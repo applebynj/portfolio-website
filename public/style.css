@@ -69,7 +69,7 @@ button:hover {
 
 
 .nav {
-    position: fixed;
+    position: static;
     top: 50px;
     right: 20%;
     font-style: italic;
@@ -217,7 +217,7 @@ button:hover {
     -moz-transform: none !important;
 }
 
-.project-card {
+.project-card, #last-project-card, #next-project-card {
     transition: all 1s;
     -webkit-transition: all 1s; /** Chrome & Safari **/
     -moz-transition: all 1s; /** Firefox **/
@@ -413,10 +413,10 @@ button:hover {
 @media (min-width: 768px) {
     #project-details-card{
         position: fixed;
-        width: 30%;
         float: left;
         top: 50%;
         margin-top: -150px; /* Half of the height */
+        z-index: 10;
     }
 }
 
@@ -448,6 +448,29 @@ button:hover {
     text-align: center;
     margin-top: 20px;
 }
+
+#project-details-card #next-project-card {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(2deg) translate(15px, 0px);
+    transform-origin: 50% 100%;
+}
+
+#project-details-card #last-project-card {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-2deg) translate(-15px, 0px);
+    transform-origin: 50% 100%;
+}
+
+#project-details-card #next-project-card:hover {
+    transform: rotate(5deg) translate(100px, -80px);
+}
+
+#project-details-card #last-project-card:hover {
+    transform: rotate(-5deg) translate(-100px, -80px);
+}
+
 
 #card-links a{
     margin-right: 20px;

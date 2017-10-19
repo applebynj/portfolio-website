@@ -20,12 +20,28 @@ class ProjectPage extends Component {
             }
         })[0];
 
+        const nextProject = projects[projects.indexOf(project) - 1];
+        const lastProject = projects[projects.indexOf(project) + 1];
+
         project.cardStyle = {};
 
         return (
             <div className="site-container">
                 <div id="project-details-card">
-                    <ProjectCard data={project}/>
+                    <div id="card-body">
+                        {nextProject ?
+                             <div id="next-project-card">
+                                <ProjectCard  data={nextProject}/>
+                             </div>
+                            : null}
+                        {lastProject ?
+                         <div id="last-project-card">
+                             <ProjectCard data={lastProject}/>
+                         </div>
+                            : null}
+                        <ProjectCard data={project}/>
+
+                    </div>
                     <div id="card-links">
                         {project.githubRepo && <a href={project.githubRepo} target="_blank"
                            className="fa fa-github" aria-hidden="true"></a>}

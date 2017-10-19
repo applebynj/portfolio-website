@@ -29,7 +29,7 @@ class ProjectDetails extends Component {
         });
         return (
             <div>
-                <ul id="project-cards">
+                <ul id="project-details">
                     {contentNode}
                 </ul>
             </div>
