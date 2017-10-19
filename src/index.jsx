@@ -74,7 +74,7 @@ const data = [
                         + 'to create a brand identity and website for MeetingHabits: a startup '
                         + 'focused on helping companies improve their unproductive meetings.'
         }, {
-            img:'meetinghabits/mainpage.png',
+            img:'MeetingHabits/mainpage.png',
         }, {
             head:'Developing Amongst Designers',
             body:'I was the sole developer on a team of five designers for this project, and this was '
@@ -84,7 +84,7 @@ const data = [
                  + 'to pick up a plethora of new concepts before our deadline.'
         }, {
             head:"Our Tools",
-            img:'meetinghabits/responsive.png',
+            img:'MeetingHabits/responsive.png',
             body:'Our client requested that we use Twitter Bootstrap, because as the founder and only '
                  + 'employee of his company, he wanted to be able to easily tweak the website after '
                  + 'our semester with him. With the experience I have today, I would have evaluated alternative '
@@ -95,7 +95,7 @@ const data = [
                  + 'in reaching out for help that I carry with me to this day.'
         }, {
             head:'More Than a Developer',
-            img:'meetinghabits/star.png',
+            img:'MeetingHabits/star.png',
             body:'We met with our client weekly, which gave me ample opportunity to be a part of design '
                  + 'conversations even as a developer. We used branding activities to abstract our brand '
                  + 'and tackle the challenge of seeming important, yet approachable. As a developer, I '
@@ -106,7 +106,7 @@ const data = [
             link:"https://web.northeastern.edu/scout/project/mh/"
         }, {
             head:'A Simple Solution',
-            img:'meetinghabits/calculator.png',
+            img:'MeetingHabits/calculator.png',
             body: "One of our client's stretch goals was an ROI Calculator on the site. This required "
                   + "a calculation based on user input and storage of user data for our client to reference. "
                   + "Rather than over-engineering a solution, I was able to use native Javascript to "
