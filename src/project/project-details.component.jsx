@@ -3,6 +3,18 @@ import { Link } from 'react-router';
 
 class ProjectDetails extends Component {
 
+    componentDidMount() {
+        /* Load content already on screen*/
+        fadeContent();
+
+        /* Continue to load content on screen, on every scroll*/
+        $(window).scroll( function(){
+            fadeContent();
+        });
+    };
+
+
+
     render() {
         const content = this.props.data;
 
@@ -19,11 +31,11 @@ class ProjectDetails extends Component {
 
             return (
                 <section>
-                    <h2>{content.head}</h2>
-                    {content.img && <img src= {'../media/img/' + content.img}/>}
-                    {content.link && <a href={content.link} target="_blank">{content.body}</a>}
-                    {!content.link &&<p>{content.body}</p>}
-                    {content.list && <ul>{listContent}</ul>}
+                    <h2 className="hide-me">{content.head}</h2>
+                    {content.img && <img className="hide-me" src= {'../media/img/' + content.img}/>}
+                    {content.link && <a className="hide-me" href={content.link} target="_blank">{content.body}</a>}
+                    {!content.link &&<p className="hide-me">{content.body}</p>}
+                    {content.list && <ul className="hide-me">{listContent}</ul>}
                 </section>
             )
         });
@@ -35,6 +47,20 @@ class ProjectDetails extends Component {
             </div>
         );
     }
+}
+
+function fadeContent() {
+    /* Check every element that is initially hidden via opacity */
+    $('.hide-me').each( function(i){
+
+        var bottom_of_object = $(this).position().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height() * (7/8);
+
+        /* Is this element on the screen? (plus a margin at bottom) Show it. */
+        if( bottom_of_window > bottom_of_object ){
+            $(this).animate({'opacity':'1', top: '0px'}, 750);
+        }
+    });
 }
 
 export default ProjectDetails
