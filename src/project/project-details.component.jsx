@@ -13,6 +13,10 @@ class ProjectDetails extends Component {
         });
     };
 
+    componentDidUpdate() {
+        window.scrollTo(0, 0);
+    }
+
 
 
     render() {
