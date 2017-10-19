@@ -51,8 +51,8 @@ const data = [
                 img:'wander/api-eval.png',
                 body:'The site supports industry standard user roles, such as an admin who can access the '
                      + 'admin panel shown above which delivers frontend CRUD permission to domain objects. '
-                     + 'Additionally, an anonymous role is supported so that users can browse the site before'
-                     + 'deciding to create an account. Account creation can even be done with a Google account'
+                     + 'Additionally, an anonymous role is supported so that users can browse the site before '
+                     + 'deciding to create an account. Account creation can even be done with a Google account '
                      + 'to expedite the process.'},
             {   body: 'check out the full site here',
                 link:'https://appleby-noah-webdev-project.herokuapp.com/'}]
@@ -70,9 +70,51 @@ const data = [
         icon: 'media/img/MeetingHabits/logo.png',
         image: 'media/img/MeetingHabits/preview.png',
         liveLink: 'http://meetinghabits.com/',
-        content: [{head:"This page is coming soon, my apologies!"
-        },{body:"In the meantime, check out the summary my team wrote for this project here!",
+        content: [{body:'In the fall of 2016, I worked on a team of student developer and designers '
+                        + 'to create a brand identity and website for MeetingHabits: a startup '
+                        + 'focused on helping companies improve their unproductive meetings.'
+        }, {
+            img:'meetinghabits/mainpage.png',
+        }, {
+            head:'Developing Amongst Designers',
+            body:'I was the sole developer on a team of five designers for this project, and this was '
+                 + 'also my first major experience with front-end development. It was a challenge to '
+                 + 'begin development so early on when our initial wireframes were first coming '
+                 + 'together, but doing so was a vital step in ensuring that I had the time I needed '
+                 + 'to pick up a plethora of new concepts before our deadline.'
+        }, {
+            head:"Our Tools",
+            img:'meetinghabits/responsive.png',
+            body:'Our client requested that we use Twitter Bootstrap, because as the founder and only '
+                 + 'employee of his company, he wanted to be able to easily tweak the website after '
+                 + 'our semester with him. With the experience I have today, I would have evaluated alternative '
+                 + 'solutions further at this early stage. However, in the end Bootstrap made responsiveness '
+                 + 'a breeze and was a good fit for the project. For our own convenience, we used Nunjucks '
+                 + 'templates and Sass styling to simplify our workflow. All of these were new to me at the time, '
+                 + 'but I worked closely with our Technical Director to master them and learned a valuable lesson '
+                 + 'in reaching out for help that I carry with me to this day.'
+        }, {
+            head:'More Than a Developer',
+            img:'meetinghabits/star.png',
+            body:'We met with our client weekly, which gave me ample opportunity to be a part of design '
+                 + 'conversations even as a developer. We used branding activities to abstract our brand '
+                 + 'and tackle the challenge of seeming important, yet approachable. As a developer, I '
+                 + 'was involved in the initial wire-framing process, and then shifted into development '
+                 + "in parallel to my team's creation of high-fidelity wireframes."
+        },{
+            body:"check out our case study for more on the design process",
             link:"https://web.northeastern.edu/scout/project/mh/"
+        }, {
+            head:'A Simple Solution',
+            img:'meetinghabits/calculator.png',
+            body: "One of our client's stretch goals was an ROI Calculator on the site. This required "
+                  + "a calculation based on user input, but also storage of user data for his purposes."
+                  + "Rather than over-engineering a solution, I was able to use native Javascript to "
+                  + "hook a form up to a product that our client was already comfortable with: Form Assembly."
+                  + "This solution made it possible to fit this feature in to our project, and had the "
+                  + "added benefit of allowing our client to configure email notifications for new responses."
+        }, {   body: 'check out the full site here',
+            link:'http://www.meetinghabits.com/'
         }]
     },
     {
