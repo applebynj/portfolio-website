@@ -108,11 +108,11 @@ const data = [
             head:'A Simple Solution',
             img:'meetinghabits/calculator.png',
             body: "One of our client's stretch goals was an ROI Calculator on the site. This required "
-                  + "a calculation based on user input, but also storage of user data for his purposes."
+                  + "a calculation based on user input and storage of user data for our client to reference. "
                   + "Rather than over-engineering a solution, I was able to use native Javascript to "
-                  + "hook a form up to a product that our client was already comfortable with: Form Assembly."
+                  + "hook a form up to a product that our client was already comfortable with: Form Assembly. "
                   + "This solution made it possible to fit this feature in to our project, and had the "
-                  + "added benefit of allowing our client to configure email notifications for new responses."
+                  + "added benefit of allowing our client to configure email notifications for new responses. "
         }, {   body: 'check out the full site here',
             link:'http://www.meetinghabits.com/'
         }]
@@ -131,9 +131,45 @@ const data = [
         color: 'dull-red',
         icon: 'media/img/myCampus/logo.png',
         image: 'media/img/myCampus/preview.png',
-        content: [{head:"This page is coming soon, my apologies!"
-        },{body:"In the meantime, check out our final report and project website for this project here!",
-            link:"http://www.ccs.neu.edu/home/applebynj/project/P9.html"
+        githubRepo: 'https://github.com/jocoio/MyCampus',
+        content: [{body:"In the fall of 2016, I designed, developed and evaluated myCampus as a final "
+                        + "project for a course in Human Computer Interaction. It is a prototype for "
+                        + "an iOS app that aims to help students discover on-campus Facebook events."
+        }, {img:'myCampus/main-screen.png'
+        }, { head:'Evaluation as an Ongoing Process',
+            img:'myCampus/paper-proto.png',
+            body:'The design process for this app was ongoing throughout our various forms '
+                 + 'of prototyping. We began by brainstorming user tasks and specific persona scenarios '
+                 + 'for those tasks. These scenarios gave us a basis for our user flows, from which '
+                 + 'we created our initial paper prototypes. Our usability testing began with these '
+                 + 'early prototypes; we tested users by having them complete various tasks and collected '
+                 + 'both quantitative and qualitative observations of their process. The insights from this '
+                 + 'stage of testing were extremely valuable as we had not yet begun development, therefore '
+                 + 'they were much quicker to fix.'
+        }, { head:'Keeping it Consistent',
+            img:'myCampus/discover.png',
+            body:"By keeping our initial prototypes low-fidelity, we were able to let our user's experience "
+                 + 'guide our design process. A great example of this is our discover page, which served to '
+                 + 'group events by type and allow a user to browse. In our original paper prototype, we '
+                 + 'had image placeholders for each type; this confused users as they thought the image '
+                 + 'would reference a specific event. In our next iteration, we developed an icon system '
+                 + 'for different event types, which were also present in every event listing. This developed '
+                 + 'a system of internal consistency within our app, as we were able to train users to '
+                 + 'understand what the different event-types were across all pages, not just discover.'
+        }, { head:'Implementation in Swift',
+            img:'myCampus/storyboard.png',
+            body:"While it wasn't required for our project, we decided to build our prototype using Swift "
+                 + "in order to create a more realistic test environment for our users. Also, we were simply "
+                 + "interested in gaining exposure to mobile development, as none of us had any prior experience. "
+                 + "However, we were able to put our understanding of the MVC pattern to work and had surprisingly "
+                 + "little trouble grappling with a new language and environment in XCode. Each page has a corresponding "
+                 + "view and controller, (as do some shared components, such as an 'Event Table'), and they all share a "
+                 + "common model. This model lived in memory and was composed of placeholder data as this was still only "
+                 + "a prototype, but one that allowed much more freedom on our user's end than a typical paper prototype. "
+                 + "This was important to us in testing as it gave our users freedom to accomplish "
+                 + "tasks in a multitude of ways, they weren't locked to one path."
+        },{body:"check out our final report and process website here",
+                link:"http://www.ccs.neu.edu/home/applebynj/project/P9.html"
         }]
     },
     {
