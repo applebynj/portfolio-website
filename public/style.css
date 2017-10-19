@@ -449,6 +449,10 @@ button:hover {
     margin-top: 20px;
 }
 
+@media(min-width: 769px) {
+
+}
+
 #project-details-card #next-project-card {
     position: absolute;
     z-index: -1;
@@ -469,6 +473,12 @@ button:hover {
 
 #project-details-card #last-project-card:hover {
     transform: rotate(-5deg) translate(-100px, -80px);
+}
+
+@media(max-width: 769px) {
+    #next-project-card, #last-project-card {
+        display: none;
+    }
 }
 
 
