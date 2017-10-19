@@ -437,7 +437,7 @@ button:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #project-details-card .project-card{
         margin: auto;
         margin-top: 150px; /* Half of the height */
