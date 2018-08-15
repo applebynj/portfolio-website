@@ -83,22 +83,8 @@ button:hover {
     font-weight: 200;
 }
 
-@media (min-width: 1200px) {
-    #home-projects:not(.all-cards) {
-        position: absolute;
-        bottom: 530px;
-        right: 450px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-    #home-projects:not(.all-cards) {
-        position: relative;
-        height: 400px;
-        margin-top: 20px;
-        margin-right: 330px;
-        float: right;
-    }
+#home-projects {
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -118,18 +104,17 @@ button:hover {
 
 #home-projects-label {
     border-top:  1px solid #979797;
+    width: 250px;
+    margin: 0px auto;
+    margin-top: 500px;
 }
 
 #home-projects-label button {
     float: right;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 769px) {
     #home-projects-label:not(.all-cards) {
-        padding-left: 100px;
-        position: absolute;
-        bottom: 80px;
-        right: 200px;
     }
 
     #home-projects-label.all-cards {
@@ -143,22 +128,14 @@ button:hover {
     }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
-    #home-projects-label {
-        margin-left: 60%;
-        width: 250px;
-        float: right;
-        margin-right: 80px;
-        margin-bottom: 100px;
-        text-align: right;
-        font-size: 16px;
-    }
-}
-
 @media (max-width: 768px) {
     #home-projects-label {
         display: none;
     }
+}
+
+#project-cards {
+    display: inline-block;
 }
 
 .project-card {

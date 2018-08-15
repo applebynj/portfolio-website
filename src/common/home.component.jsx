@@ -63,15 +63,16 @@ class Home extends Component {
                                 more about me
                             </Link>
                         </section>
-                        <section id="home-projects">
+                    </Section>
+                    <Section>
+                        <div id="home-projects">
                             <ProjectCardDeck data={projects}></ProjectCardDeck>
-                        </section>
+                        </div>
                         <div id="home-projects-label">
                             <h4 className="serif">Pick a card, any card!</h4>
                             <button type="button" onClick={() => {{this.showAllCards()}}}>show all cards</button>
                         </div> 
                     </Section>
-                    <Section>Another</Section>
                 </SectionsContainer>
             </div>
         );
