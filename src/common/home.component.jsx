@@ -53,15 +53,13 @@ class Home extends Component {
                 </Footer>
                 <SectionsContainer {...options}>
                     <Section> 
-                        <section id="home-hello" className="gray-border-left">
-                            <p className="serif">Hey there! I’m Noah.</p>
-                            <p>
-                                I like identifying problems and finding their solutions <br/>
-                                <i>… and</i> sticking around to make those solutions a reality.
-                            </p>
-                            <i>
-                                Let’s have some fun.
-                            </i>
+                        <section className="center-container">
+                            <div id="home-hello" className="center gray-border-left">
+                                <h1 className="serif">Hello, welcome!</h1>
+                                <h2 className="font-light">
+                                    I'm Noah, a developer-designer with a passion for defining, building and evaluating user experiences. 
+                                </h2>
+                            </div>
                         </section>
                     </Section>
                     <Section>
