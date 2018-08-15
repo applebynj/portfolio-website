@@ -38,10 +38,16 @@ class Home extends Component {
 
         return (
             <div>
-                {/* <Header>
-                    <a href="#sectionOne">Section One</a>
-                    <a href="#sectionTwo">Section Two</a>
-                </Header> */}
+                {<Header>
+                    <section className="nav">
+                        <Link
+                            to={"/about"}>
+                            more about me
+                        </Link>
+                    </section>
+                    {/* <a href="#sectionOne">Section One</a>
+                    <a href="#sectionTwo">Section Two</a> */}
+                </Header>}
                 <Footer>
                     <Banner/>
                 </Footer>
@@ -56,12 +62,6 @@ class Home extends Component {
                             <i>
                                 Let’s have some fun.
                             </i>
-                        </section>
-                        <section className="nav">
-                            <Link
-                                to={"/about"}>
-                                more about me
-                            </Link>
                         </section>
                     </Section>
                     <Section>
