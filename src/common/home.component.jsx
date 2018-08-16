@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import ProjectCardDeck from '../project/project-card-deck.component.jsx'
 import Banner from './banner.component.jsx';
-import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
+import fullpage from 'fullpage.js';
 
 class Home extends Component {
 
@@ -22,37 +22,31 @@ class Home extends Component {
         }
     };
 
-    render(){
-        const projects = this.props.route.data;
+    componentDidMount() {
+        fullpage('#fullpage', {
+            //options here TODO: update license key
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+            autoScrolling:true,
+            navigation:true,
+            navigationPosition: 'right',
+        });
+    }
 
-        let options = {
-            sectionClassName:     'section',
-            anchors:              ['sectionOne', 'sectionTwo'],
-            scrollBar:            false,
-            navigation:           true,
-            verticalAlign:        false,
-            sectionPaddingTop:    '50px',
-            sectionPaddingBottom: '50px',
-            arrowNavigation:      true
-        };
+    render(){
+
+        const projects = this.props.route.data;
 
         return (
             <div>
-                {<Header>
-                    <section className="nav">
-                        <Link
-                            to={"/about"}>
-                            more about me
-                        </Link>
-                    </section>
-                    {/* <a href="#sectionOne">Section One</a>
-                    <a href="#sectionTwo">Section Two</a> */}
-                </Header>}
-                <Footer>
-                    <Banner/>
-                </Footer>
-                <SectionsContainer {...options}>
-                    <Section> 
+                <section className="nav">
+                    <Link
+                        to={"/about"}>
+                        more about me
+                    </Link>
+                </section>
+
+                <div id="fullpage">
+                    <div className="section">
                         <section className="center-container">
                             <div id="home-hello" className="center gray-border-left">
                                 <h1 className="serif">Hello, welcome!</h1>
@@ -61,17 +55,18 @@ class Home extends Component {
                                 </h2>
                             </div>
                         </section>
-                    </Section>
-                    <Section>
+                    </div>
+                    <div className="section">
                         <div id="home-projects">
-                            <ProjectCardDeck data={projects}></ProjectCardDeck>
-                        </div>
-                        <div id="home-projects-label">
-                            <h4 className="serif">Pick a card, any card!</h4>
-                            <button type="button" onClick={() => {{this.showAllCards()}}}>show all cards</button>
+                                <ProjectCardDeck data={projects}></ProjectCardDeck>
+                            </div>
+                            <div id="home-projects-label">
+                                <h4 className="serif">Pick a card, any card!</h4>
+                                <button type="button" onClick={() => {{this.showAllCards()}}}>show all cards</button>
                         </div> 
-                    </Section>
-                </SectionsContainer>
+                    </div>
+                </div>
+                <Banner/>
             </div>
         );
     }

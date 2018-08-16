@@ -559,7 +559,6 @@ a:hover {
     position:fixed;
     bottom:0;
     width: 100%;
-    margin: 0px -8px;
     background-color: #009999;
     opacity: 0.75;
     z-index:200 !important;
