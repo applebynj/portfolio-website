@@ -61,8 +61,7 @@ class Home extends Component {
                                 <ProjectCardDeck data={projects}></ProjectCardDeck>
                             </div>
                             <div id="home-projects-label">
-                                <h4 className="serif">Pick a card, any card!</h4>
-                                <button type="button" onClick={() => {{this.showAllCards()}}}>show all cards</button>
+                                <button type="button" className="serif" onClick={() => {{this.showAllCards()}}}>See all Projects</button>
                         </div> 
                     </div>
                 </div>

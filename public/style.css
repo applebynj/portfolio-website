@@ -23,9 +23,8 @@ button {
     background-color: transparent;
     padding: 5px 10px;
     text-align: center;
-    font-family: 'Source Serif Pro', serif;
     font-style: italic;
-    font-size: 12px;
+    font-size: 1.5em;
     outline: none;
 }
 
@@ -135,14 +134,12 @@ button:hover {
 }
 
 #home-projects-label {
-    border-top:  1px solid #979797;
-    width: 250px;
-    margin: 0px auto;
     margin-top: 500px;
 }
 
 #home-projects-label button {
-    float: right;
+    display: block;
+    margin: 0 auto;
 }
 
 @media (min-width: 769px) {
