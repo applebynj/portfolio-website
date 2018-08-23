@@ -10,8 +10,8 @@ a{
 
 h1 {
     font-size: 3em;
-    line-height: 2em;
     margin: 0px;
+    margin-bottom: 0.5em;
 }
 
 h2 {
@@ -95,6 +95,7 @@ button:hover {
 
 #home-hello {
     max-width: 500px;
+    margin: 0px 50px;
 }
 
 @media (min-width: 1200px) {
@@ -139,9 +140,12 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    #featured-project {
+        display:none;
+    }
+
     #home-projects {
-        position: relative;
-        margin: 50px auto 100px auto;
+        height: 300px;
     }
 
     #project-cards {
@@ -168,7 +172,7 @@ button:hover {
 
 @media (max-width: 768px) {
     #home-projects-label {
-        display: none;
+        margin-top: 400px;
     }
 }
 
@@ -185,49 +189,34 @@ button:hover {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
 }
 
-@media (max-width: 769px) {
-    #home-projects .project-card {
-        -webkit-transform: none !important;
-        transform: none !important;
-        margin-bottom: 10px;
-    }
-}
-
-
-@media (min-width: 769px) {
-    #home-projects .project-card {
-        position: absolute;
-    }
+#home-projects .project-card {
+    position: absolute;
 }
 
 /* for when user wants to see all cards */
+#home-projects.all-cards {
+    margin: auto 0px;
+    width: 100%;
+    text-align: center;
+}
 
-@media (min-width: 769px) {
+#project-cards.all-cards {
+    -webkit-transform: none !important;
+    transform: none !important;
+    display: block;
+    white-space: nowrap;
+    overflow-x: scroll;
+}
 
-    #home-projects.all-cards {
-        margin: auto 0px;
-        width: 100%;
-        text-align: center;
-    }
-
-    #project-cards.all-cards {
-        -webkit-transform: none !important;
-        transform: none !important;
-        display: block;
-        white-space: nowrap;
-        overflow-x: scroll;
-    }
-
-    #home-projects .project-card.all-cards {
-        display: inline-block;
-        position: relative;
-        -webkit-transform: none !important;
-        transform: none !important;
-        transform-origin: center;
-        margin: 10px;
-        white-space: normal;
-        vertical-align: bottom;
-    }
+#home-projects .project-card.all-cards {
+    display: inline-block;
+    position: relative;
+    -webkit-transform: none !important;
+    transform: none !important;
+    transform-origin: center;
+    margin: 10px;
+    white-space: normal;
+    vertical-align: bottom;
 }
 
 
