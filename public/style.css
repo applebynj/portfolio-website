@@ -226,6 +226,7 @@ button:hover {
         transform-origin: center;
         margin: 10px;
         white-space: normal;
+        vertical-align: bottom;
     }
 }
 
