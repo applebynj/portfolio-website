@@ -55,16 +55,18 @@ class Home extends Component {
                     </div>
                     <div className="section">
                         <div id="home-projects">
-                                <ProjectCardDeck data={projects}></ProjectCardDeck>
-                        </div>
-                        <div id="featured-project">
-                            <div>
-                                <h2>Featured Project</h2>
-                                <p>{projects[0].content[0].body}</p>
-                                <Link to={"/projects/" + projects[0].name}>
-                                    <button type="button" className="serif">read more</button>
-                                </Link>
-                            </div>
+                                <div>
+                                    <ProjectCardDeck data={projects}></ProjectCardDeck>
+                                    <div id="featured-project">
+                                        <div>
+                                            <h2>Featured Project</h2>
+                                            <p>{projects[0].content[0].body}</p>
+                                            <Link to={"/projects/" + projects[0].name}>
+                                                <button type="button" className="serif">read more</button>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                         <div id="home-projects-label">
                             <button type="button" className="big-button serif" onClick={() => {{this.showAllCards()}}}>see all projects</button>

@@ -120,16 +120,14 @@ button:hover {
 }
 
 #home-projects {
-    width: 50%; /*TODO: make reusable*/
+    width: 100%; /*TODO: make reusable*/
     margin-left: 10%;
     float: left;
     text-align: center;
 }
 
 #featured-project {
-    width: 50%;
-    float: right;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 
@@ -139,7 +137,7 @@ button:hover {
     float: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
     #featured-project {
         display:none;
     }
@@ -171,6 +169,11 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    #project-cards {
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
+
     #home-projects-label {
         margin-top: 400px;
     }
@@ -178,6 +181,8 @@ button:hover {
 
 #project-cards {
     display: inline-block;
+    width: 250px;
+    vertical-align: top;
 }
 
 .project-card {
@@ -206,6 +211,7 @@ button:hover {
     display: block;
     white-space: nowrap;
     overflow-x: scroll;
+    width: 100%;
 }
 
 #home-projects .project-card.all-cards {
@@ -595,7 +601,7 @@ a:hover {
 
 @media (min-width: 768px) {
     #fullpage {
-        padding-right: 150px;
+        margin-right: 180px;
     }
 }
 
