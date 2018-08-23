@@ -24,8 +24,12 @@ button {
     padding: 5px 10px;
     text-align: center;
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 1em;
     outline: none;
+}
+
+.big-button { /*TODO: lol, clean this up, it late*/
+    font-size: 1.5em;
 }
 
 button:hover {
@@ -115,7 +119,23 @@ button:hover {
 }
 
 #home-projects {
+    width: 50%; /*TODO: make reusable*/
+    margin-left: 10%;
+    float: left;
     text-align: center;
+}
+
+#featured-project {
+    width: 50%;
+    float: right;
+    display: block;
+    text-align: left;
+}
+
+#featured-project div {
+    margin-top: 75px;
+    width: 400px;
+    float: left;
 }
 
 @media (max-width: 768px) {
@@ -142,19 +162,8 @@ button:hover {
     margin: 0 auto;
 }
 
-@media (min-width: 769px) {
-    #home-projects-label:not(.all-cards) {
-    }
-
-    #home-projects-label.all-cards {
-        margin-left: 60%;
-        width: 250px;
-        float: right;
-        margin-right: 200px;
-        margin-bottom: 100px;
-        text-align: right;
-        font-size: 16px;
-    }
+#featured-project.all-cards {
+    display:none;
 }
 
 @media (max-width: 768px) {

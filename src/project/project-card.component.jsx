@@ -31,7 +31,7 @@ class ProjectCard extends Component {
         const project = this.props.data;
 
         return (
-            <section className={'project-card card-' + project.color + ' preload'}
+            <div className={'project-card card-' + project.color + ' preload'}
                      style={project.cardStyle} onMouseEnter = {() => { {this.mouseOver(project.id, project)}}}>
                 <Link
                     to={"/projects/"+project.name}
@@ -57,7 +57,7 @@ class ProjectCard extends Component {
                         </p>
                     </div>
                 </Link>
-            </section>
+            </div>
         )
     }
 }

@@ -11,14 +11,14 @@ class Home extends Component {
             $('#home-projects').removeClass("all-cards");
             $('#project-cards').removeClass("all-cards");
             $('.project-card').removeClass("all-cards");
-            $('#home-projects-label').removeClass("all-cards");
-            $('#home-projects-label button').html("show all cards");
+            $('#featured-project').removeClass("all-cards");
+            $('#home-projects-label button').html("see all projects");
         } else {
             $('#home-projects').addClass("all-cards");
             $('#project-cards').addClass("all-cards");
             $('.project-card').addClass("all-cards");
-            $('#home-projects-label').addClass("all-cards");
-            $('#home-projects-label button').html("show hand of cards");
+            $('#featured-project').addClass("all-cards");
+            $('#home-projects-label button').html("show featured project");
         }
     };
 
@@ -59,9 +59,18 @@ class Home extends Component {
                     <div className="section">
                         <div id="home-projects">
                                 <ProjectCardDeck data={projects}></ProjectCardDeck>
+                        </div>
+                        <div id="featured-project">
+                            <div>
+                                <h2>Featured Project</h2>
+                                <p>{projects[0].content[0].body}</p>
+                                <Link to={"/projects/" + projects[0].name}>
+                                    <button type="button" className="serif">read more</button>
+                                </Link>
                             </div>
-                            <div id="home-projects-label">
-                                <button type="button" className="serif" onClick={() => {{this.showAllCards()}}}>See all Projects</button>
+                        </div>
+                        <div id="home-projects-label">
+                            <button type="button" className="big-button serif" onClick={() => {{this.showAllCards()}}}>see all projects</button>
                         </div> 
                     </div>
                 </div>
