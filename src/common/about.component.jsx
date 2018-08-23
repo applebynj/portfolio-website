@@ -48,15 +48,7 @@ class About extends Component {
                             </p>
                         </div>
                     </section>
-
-                    <section className="nav">
-                        <Link
-                            to={"/"}>
-                           back to projects
-                        </Link>
-                    </section>
                 </div>
-                <Banner/>
             </div>
         );
     }

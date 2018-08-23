@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 import ProjectCardDeck from '../project/project-card-deck.component.jsx'
+import About from './about.component.jsx';
 import Banner from './banner.component.jsx';
 import fullpage from 'fullpage.js';
 
@@ -38,13 +39,6 @@ class Home extends Component {
 
         return (
             <div>
-                <section className="nav">
-                    <Link
-                        to={"/about"}>
-                        more about me
-                    </Link>
-                </section>
-
                 <div id="fullpage">
                     <div className="section">
                         <section className="center-container">
@@ -72,6 +66,9 @@ class Home extends Component {
                         <div id="home-projects-label">
                             <button type="button" className="big-button serif" onClick={() => {{this.showAllCards()}}}>see all projects</button>
                         </div> 
+                    </div>
+                    <div className="section">
+                        <About> </About>
                     </div>
                 </div>
                 <Banner/>
