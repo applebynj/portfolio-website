@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "express": "^4.14.0",
-    "fullpage-react": "^3.0.33",
     "fullpage.js": "^3.0.2",
     "history": "^3.0.0",
     "react": "^15.3.0",

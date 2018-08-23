@@ -205,22 +205,27 @@ button:hover {
 @media (min-width: 769px) {
 
     #home-projects.all-cards {
-        margin: 50px 0px;
-        height: 100%;
+        margin: auto 0px;
+        width: 100%;
         text-align: center;
     }
 
     #project-cards.all-cards {
-        width: 550px;
-        margin: auto;
+        -webkit-transform: none !important;
+        transform: none !important;
+        display: block;
+        white-space: nowrap;
+        overflow-x: scroll;
     }
 
     #home-projects .project-card.all-cards {
-        display:inline-block;
+        display: inline-block;
         position: relative;
         -webkit-transform: none !important;
         transform: none !important;
+        transform-origin: center;
         margin: 10px;
+        white-space: normal;
     }
 }
 
