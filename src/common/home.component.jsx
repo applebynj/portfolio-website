@@ -30,6 +30,9 @@ class Home extends Component {
             autoScrolling:true,
             navigation:true,
             navigationPosition: 'right',
+            anchors:['home', 'projects', 'about'],
+            navigationTooltips: ['home', 'projects', 'about'],
+            showActiveTooltip: true,
         });
     }
 

@@ -581,3 +581,47 @@ a:hover {
  font-weight: 400;
 }​
 
+/*TODO: TEMP*/
+
+#fp-nav ul li a, .fp-slidesNav ul li a {
+
+}
+
+#fp-nav ul li{
+    padding: 15px 0px !important;
+    width: 100px !important;
+    right: 30px;
+}
+
+@media (min-width: 768px) {
+    #fullpage {
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    #fp-nav {
+        display: none;
+    }
+}
+
+#fp-nav ul li:hover .fp-tooltip, #fp-nav.fp-show-active a.active + .fp-tooltip {
+    color: black;
+}
+
+#fp-nav ul li .fp-tooltip.fp-right {
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    width: auto;
+    opacity: 1;
+}
+
+#fp-nav ul li .fp-tooltip.fp-right {
+    right: 0px !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    opacity: 0;
+}
