@@ -11,46 +11,51 @@ const projectData = [
                'web design',
                'design consultation'],
         color: 'calm-blue',
-        icon: 'media/img/wander/logo.png',
-        image: 'media/img/wander/preview.png',
+        icon: 'media/img/EverydayBoston/logo.png',
+        image: 'media/img/EverydayBoston/preview.png',
         liveLink: 'https://www.everydayboston.org/',
         content: [
             {body:"In the fall of 2017, I joined an interdisciplinary team of five students with very different "
                   + "backgrounds: design, development, neuroscience, economics and entrepeneurship. Together, we "
-                  + "worked with our client, a local non-profit, to overhaul their website, turning it from a "
+                  + "worked with a local non-profit to redefine the role of their website; turning it from a "
                   + "standard blog into a combination marketing site and community-fostering tool. This required "
-                  + "careful attention to audience and accessibility, and an overhaul of their brand.",
+                  + "careful attention to audience and accessibility, along with an overhaul of their brand.",
                 },
-            {img:'everyday-boston/home-screen.png'
+            {img:'EverydayBoston/home-screen.png'
                 },
-            {head:'A Focus on User Experience', 
-                img:'everyday-boston/sitemap.png',
+            {head:'Knowing Our Users', 
+                body:'At the onset of our project, the final deliverable was undefined. We knew we\'d likely be '
+                    + 'focused on overhauling the website, but we needed to first understand the purpose of this '
+                    + 'website in regards to the larger organization. Our local Boston audience was very accessible to us, thus we were '
+                    + 'able to survey a wide demographic of users. Additionally, we were able to '
+                    + 'speak with a number of members of the organization to understand their relationship and feelings towards ' 
+                    + 'the existing website.',
+            },
+            {head:'Creating a Common Language Through UX', 
+                img:'EverydayBoston/site-map.png',
                 body:'Identifying my team\'s lack of experience with developing for the web, early '
-                     + 'on in our project I pushed for prioritization of design tools such as the '
-                     + 'site map to get us all speaking the same language. They were especially helpful '
-                     + 'during our weekly client meetings, providing a tactile resource to keep the entire '
-                     + 'team grounded. Additionally, by establishing this structure early on, we were able '
-                     + 'to visualize the website in the larger, long-term context of a user\'s experience '
+                     + 'on in our project I pushed for prioritization of design tools such as the above '
+                     + 'site map to get us all speaking the same language. This was especially helpful '
+                     + 'during our weekly client meetings, providing a tactile artifact to keep the conversation '
+                     + 'grounded. Additionally, by establishing this skeleton early on, we were able '
+                     + 'to visualize the website in the larger, end-to-end context of a user\'s experience '
                      + 'and provide high-level consultation on other projects that the organization had underway.',
             },
-            {head:'Guiding Development and Design Processes', //big picture, sitemap, etc
-                img:'everyday-boston/mentoring.png',
-                body:'Due to the varied background of the team, there was a knowledge barrier between . '
-                     + 'us in the way we went about doing our work in our studio: the design process. We began '
-                     + 'meeting with our client in our first week of team-formation, so we were challenged to tackle '
-                     + 'this barrier on the fly. Ultimately, I would say with confidence that this just made us '
-                     + 'stronger, and encouraged the team to learn from each other in every way possible. I was '
-                     + 'even asked to run an HTML + CSS workshop for some team members, to which I happily obliged!'},
+            {head:'Empathy > Efficiency',
+                img:'EverydayBoston/team-learning.jpg',
+                body:'Due to the varied background of the team, there was a knowledge barrier between '
+                     + 'us regarding experience with design and development processes. We began meeting with our client in our first week '
+                     + 'of team-formation, so we were challenged to tackle this barrier on the fly. Ultimately, '
+                     + 'it encouraged the team to learn from each other in every way possible. Throughout the semester, we '
+                     + 'ran internal team workshops for topics such as HTML, CSS and user testing. We prioritized developing '
+                     + 'empathy over efficency, and didn\'t allow our varied backgrounds to silo us off.'},
             {head:'An "Expert" of the Unknown',
-                img:'wander/admin-screen.png', //TODO: add this section
-                body:'The site supports industry standard user roles, such as an admin who can access the '
-                     + 'admin panel shown above which delivers frontend CRUD permission to domain objects. '
-                     + 'Additionally, an anonymous role is supported so that users can browse the site before '
-                     + 'deciding to create an account. Account creation can even be done with a Google account '
-                     + 'to expedite the process.'},
-                //having to make estaimtes on very unknown territory, first CMS experience
-                //Additionally, acting as one of only two developers on the project, '
-                //+ 'I used this tool to ensure an early skeleton from which I could begin development.
+                img:'EverydayBoston/home-screen.png',
+                body:'Juggling the roles of leading development and helping teach the team design processes was '
+                    + 'especially difficult given my prior lack of experience with Wordpress and content management '
+                    + 'systems as a whole. Tools such as the aforementioned site map helped me be able to get an '
+                    + 'early start on development, allowing me to spec out work early and be more confident in making '
+                    + 'judgement calls on time estimates down the line regarding what was within our scope.'},
             {   body: 'check out the full site here',
                 link:'https://www.everydayboston.org/'}]
     },
