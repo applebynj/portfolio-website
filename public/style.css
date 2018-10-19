@@ -284,6 +284,14 @@ button:hover {
 }
 
 /* Card colors (TODO: add const for colors / pull from data instead) */
+.card-hbp-teal {
+    border-color: #1B365D;
+}
+
+.card-hbp-teal .card-header{
+    background-color: #1B365D;
+}
+
 .card-calm-blue {
     border-color: #21759b;
 }
