@@ -23,7 +23,7 @@ const projectData = [
                 {body: "This is just a small taste of what we've been up to, but please stay tuned for more details!"},
                 {img:'HackBeanpot/brand-guide.png',
                 body: "Establishing brand guidelines early, such as this example of color usage, has allowed us to "
-                +   "build and roll-out the brand over time. We've prioritized maintaining transparency with the"
+                +   "build and roll-out the brand over time. We've prioritized maintaining transparency with the "
                 +   "rest of the organization in order to help ease the transition."},
                 {img:'HackBeanpot/social.png',
                 body: "For example, our social team has been able to practice implementing the brand in progress, providing us "
@@ -32,7 +32,7 @@ const projectData = [
                 {img:"HackBeanpot/old-site.png",
                 body:"Here's a taste of our prior website and logo. Our major motivation in rebranding was to "
                 +   "establish a more friendly brand, in line with our target audience of first time hackers. "
-                +   "Therefore, we lead with establishing brand values and a core identity across all five "
+                +   "Therefore, we led with establishing brand values and a core identity across all five "
                 +   "of our internal teams as a prerequisite to overhauling our visual identity."},
                 {img:'HackBeanpot/new-site.png'},
                 {body:"Check out our new site!",
