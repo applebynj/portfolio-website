@@ -44,8 +44,8 @@ class About extends Component {
                             <p className="font-light">
                                 I just wrapped up my second co-op at ASICS Digital, and spent the summer going on a road trip 
                                 from Boston to Chicago (with many stops in-between). I'm back in classes for the Fall now, and am 
-                                acting as the lead of the design team for HackBeanpot. Finally, I'm excited to share that next semester, 
-                                I'm headed out west to take courses out at Northeastern's Seattle Campus!
+                                acting as the lead of the design team for HackBeanpot. Next semester, I'm headed out west to take 
+                                courses out at Northeastern's Seattle Campus!
                             </p>
                         </div>
                     </section>
