@@ -12,7 +12,7 @@ class About extends Component {
                         <div className="business-card">
                             <div className="business-card-content">
                                 <h2 className="serif">Noah Appleby</h2>
-                                 available January 2018 - August 2018<br/>
+                                 available June 2019 - August 2019<br/>
                                 <span className="font-light">appleby.n@husky.neu.edu</span><br/><br/>
                                 <a href="https://drive.google.com/open?id=0Bww7MJCUkyYJdEVqdmtwZDRzdFE" target="_blank"
                                    className="font-bold resume">view resume</a>
@@ -26,7 +26,7 @@ class About extends Component {
                     <section id="about-text">
                         <div className="gray-border-left">
                             <p className="serif">
-                                I’m a New England native in his third year of a Computer Science and Design major at Northeastern University.
+                                I’m a New England native in his fourth year of a Computer Science and Design major at Northeastern University.
                             </p>
                             <p className="font-light">
                                 Whether it be by picking up a new framework or building a product for an industry I’ve never even heard of
@@ -42,9 +42,10 @@ class About extends Component {
                                 What am I up to?
                             </p>
                             <p className="font-light">
-                                Along with my fall classes, I’m working as a developer/designer for both Scout Studio and HackBeanpot. After
-                                completing my first co-op in mid-August, I spent my two week summer traveling out west (for the first time!!)
-                                to explore Seattle and San Francisco.
+                                I just wrapped up my second co-op at ASICS Digital, and spent the summer going on a road trip 
+                                from Boston to Chicago (with many stops in-between). I'm back in classes for the Fall now, and am 
+                                acting as the lead of the design team for HackBeanpot. Finally, I'm excited to share that next semester, 
+                                I'm headed out west to take courses out at Northeastern's Seattle Campus!
                             </p>
                         </div>
                     </section>
