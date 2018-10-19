@@ -52,7 +52,7 @@ class Home extends Component {
                         <button type="button" onClick={() => {{this.showAllCards()}}}>show all cards</button>
                     </div>
                 </div>
-                <Banner/>
+                {/* <Banner/> */}
             </div>
         );
     }
