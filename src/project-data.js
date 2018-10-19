@@ -33,7 +33,7 @@ const projectData = [
             },
             {head:'Creating a Common Language Through UX', 
                 img:'EverydayBoston/site-map.png',
-                body:'Identifying my team\'s lack of experience with developing for the web, early '
+                body:'Identifying our team\'s lack of experience with developing for the web, early '
                      + 'on in our project I pushed for prioritization of design tools such as the above '
                      + 'site map to get us all speaking the same language. This was especially helpful '
                      + 'during our weekly client meetings, providing a tactile artifact to keep the conversation '
@@ -47,13 +47,13 @@ const projectData = [
                      + 'us regarding experience with design and development processes. We began meeting with our client in our first week '
                      + 'of team-formation, so we were challenged to tackle this barrier on the fly. Ultimately, '
                      + 'it encouraged the team to learn from each other in every way possible. Throughout the semester, we '
-                     + 'ran internal team workshops for topics such as HTML, CSS and user testing. We prioritized developing '
+                     + 'ran internal team workshops on topics such as HTML, CSS and user testing. We prioritized developing '
                      + 'empathy over efficency, and didn\'t allow our varied backgrounds to silo us off.'},
             {head:'An "Expert" of the Unknown',
                 img:'EverydayBoston/home-screen.png',
-                body:'Juggling the roles of leading development and helping teach the team design processes was '
+                body:'Juggling the roles of primary developer and design mentor was '
                     + 'especially difficult given my prior lack of experience with Wordpress and content management '
-                    + 'systems as a whole. Tools such as the aforementioned site map helped me be able to get an '
+                    + 'systems as a whole. Tools such as our site map helped me be able to get an '
                     + 'early start on development, allowing me to spec out work early and be more confident in making '
                     + 'judgement calls on time estimates down the line regarding what was within our scope.'},
             {   body: 'check out the full site here',
