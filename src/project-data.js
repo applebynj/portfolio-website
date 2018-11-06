@@ -14,28 +14,18 @@ const projectData = [
         icon: 'media/img/SwitchAndTell/logo.png',
         image: 'media/img/SwitchAndTell/preview.png',
         liveLink: 'https://devpost.com/software/switch-tell',
+        githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
         content: [
-            {body:"I'm currently leading the Design team of HackBeanpot, which is handling a complete rebrand "
-                + "of everything we do! Stepping into a leadership role for this process has been an absolute joy. "
-                + "I've continued to learn the power of mentorship, and how effective a leader who trusts in the "
-                + "process they've created and the abilities of their team can really be."},
-                {body: "This is just a small taste of what we've been up to, but please stay tuned for more details!"},
-                {img:'HackBeanpot/brand-guide.png',
-                body: "Establishing brand guidelines early, such as this example of color usage, has allowed us to "
-                +   "build and roll-out the brand over time. We've prioritized maintaining transparency with the "
-                +   "rest of the organization in order to help ease the transition."},
-                {img:'HackBeanpot/social.png',
-                body: "For example, our social team has been able to practice implementing the brand in progress, providing us "
-                +   "valuable insight and in-turn helping shape the brand. By getting parts of the brand in front of our "
-                +   "audience early, far ahead of the event, we have been able to fine-tune details with confidence."},
-                {img:"HackBeanpot/old-site.png",
-                body:"Here's a taste of our prior website and logo. Our major motivation in rebranding was to "
-                +   "establish a more friendly brand, in line with our target audience of first time hackers. "
-                +   "Therefore, we led with establishing brand values and a core identity across all five "
-                +   "of our internal teams as a prerequisite to overhauling our visual identity."},
-                {img:'HackBeanpot/new-site.png'},
-                {body:"Check out our new site!",
-                link:'https://www.everydayboston.org/'}]
+            {body:"I attended Wellesley Hacks in November of 2019 and ~finally~ had the"
+                + " opportunity to build an AR project with two friends of mine. More info"
+                + " is coming here soon!"},
+            {img:'SwitchAndTell/intro.jpg'},
+            {body:"In the mean time, feel free to check out our Devpost listing for more info"
+                +" and a video demo!",
+                link:'https://devpost.com/software/switch-tell'},
+            {img:'SwitchAndTell/screens.jpg'},
+            {img:'SwitchAndTell/friends.jpg'}
+            ]
     },
     {
         id: 2,
