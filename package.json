@@ -10,7 +10,7 @@
     "start": "node index.js",
     "heroku-prebuild": "npm install --only=dev",
     "postinstall": "npm run build",
-    "deploy": "gh-pages -d public"
+    "deploy": "surge /Users/applebynj/Repos/applebynj.github.io/public noahappleby.com"
   },
   "repository": {
     "type": "git",
