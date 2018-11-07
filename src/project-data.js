@@ -16,7 +16,7 @@ const projectData = [
         liveLink: 'https://devpost.com/software/switch-tell',
         githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
         content: [
-            {body:"I attended Wellesley Hacks in November of 2019 and ~finally~ had the"
+            {body:"I attended Wellesley Hacks in November of 2018 and ~finally~ had the"
                 + " opportunity to build an AR project with two friends of mine. More info"
                 + " is coming here soon!"},
             {img:'SwitchAndTell/intro.jpg'},
