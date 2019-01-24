@@ -11,11 +11,22 @@ class ProjectCardDeck extends Component {
         }
 
         const projectNode = projects.map((project) => {
-            project.cardStyle = {
-                transform: 'rotate(-' + (project.id - 1) * 5 + 'deg) translate(' + (project.id - 1) * -50 + 'px, 0%)',
-                zIndex: (100 - project.id),
-                transformOrigin: '50% 100%',
-            };
+            if(project.id <= 4) {
+                project.cardStyle = {
+                    transform: 'rotate(-' + (project.id - 1) * 5 + 'deg)' +
+                                'translate(' + (project.id - 1) * -50 + 'px, 0%)',
+                    zIndex: (100 - project.id),
+                    transformOrigin: '50% 100%',
+                };
+            } else {
+                project.cardStyle = {
+                    transform:  'rotate(-' + (project.id - 1) * 5 + 'deg)' +
+                                'translate(' + (((project.id - 1) * -50) + (40 * (project.id - 4)))  + 'px, 0%)',
+                    zIndex: (100 - project.id),
+                    transformOrigin: '50% 100%',
+                };
+            }
+
 
             project.hover = {
                 transform:'rotate(-' + (project.id - 1) * 5 + 'deg) translate(' + (project.id - 1) * -50 + 'px, 50px)',
