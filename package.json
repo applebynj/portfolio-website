@@ -10,7 +10,7 @@
     "start": "node index.js",
     "heroku-prebuild": "npm install --only=dev",
     "postinstall": "npm run build",
-    "deploy": "gh-pages -d public"
+    "deploy": "surge /Users/applebynj/Repos/applebynj.github.io/public noahappleby.com"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,7 @@
     "babel-preset-react": "^6.11.1",
     "gh-pages": "^1.0.0",
     "webpack": "^1.13.1",
-    "serve": "^1.4.0"
+    "serve": ">=7.0.0"
   },
   "dependencies": {
     "express": "^4.14.0",
