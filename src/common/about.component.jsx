@@ -47,8 +47,8 @@ class About extends Component {
                                 For the first time in a while, I'm in classes for a second consecutive semester. I'm the only undergrad out on 
                                 Seattle's Northeastern campus, which means I'm living outside of New England for the first time ever!
                                 While I'm out here, I'm working in IT on campus to help with an expansion project and am still acting as the 
-                                Design team lead for HackBeanpot. I'm not yet sure what's up next... for now I'm enjoying a comparatively calm 
-                                day-to-day and exploring this new city, excited to see what opportunities I come across next!
+                                Design Team Lead for HackBeanpot. I'm not yet sure what's up next– for now I'm enjoying a comparatively calm 
+                                day-to-day and exploring this new city, excited to see what opportunity I come across next!
                             </p>
                         </div>
                     </section>
