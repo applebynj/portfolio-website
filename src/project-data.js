@@ -3,6 +3,58 @@
 const projectData = [
     {
         id: 1,
+        name: 'Go Local',
+        type: 'branding and application',
+        date: 'Fall 2018',
+        tags: ['brand development',
+               'mock-up creation',
+               'content creation',
+               'multi-medium'],
+        color: 'switch-tell-blue',
+        icon: 'media/img/SwitchAndTell/logo.png',
+        image: 'media/img/SwitchAndTell/preview.png',
+        liveLink: 'https://devpost.com/software/switch-tell',
+        githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
+        content: [
+            {body:"I attended Wellesley Hacks in November of 2018 and ~finally~ had the"
+                + " opportunity to build an AR project with two friends of mine. More info"
+                + " is coming here soon!"},
+            {img:'SwitchAndTell/intro.jpg'},
+            {body:"In the mean time, feel free to check out our Devpost listing for more info"
+                +" and a video demo!",
+                link:'https://devpost.com/software/switch-tell'},
+            {img:'SwitchAndTell/screens.jpg'},
+            {img:'SwitchAndTell/friends.jpg'}
+            ]
+    },
+    {
+        id: 2,
+        name: 'Watch Process',
+        type: 'instructional diagram',
+        date: 'Fall 2018',
+        tags: ['app development',
+               'AR',
+               'iOS',
+               'hackathon project'],
+        color: 'switch-tell-blue',
+        icon: 'media/img/SwitchAndTell/logo.png',
+        image: 'media/img/SwitchAndTell/preview.png',
+        liveLink: 'https://devpost.com/software/switch-tell',
+        githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
+        content: [
+            {body:"I attended Wellesley Hacks in November of 2018 and ~finally~ had the"
+                + " opportunity to build an AR project with two friends of mine. More info"
+                + " is coming here soon!"},
+            {img:'SwitchAndTell/intro.jpg'},
+            {body:"In the mean time, feel free to check out our Devpost listing for more info"
+                +" and a video demo!",
+                link:'https://devpost.com/software/switch-tell'},
+            {img:'SwitchAndTell/screens.jpg'},
+            {img:'SwitchAndTell/friends.jpg'}
+            ]
+    },
+    {
+        id: 3,
         name: 'Switch & Tell',
         type: 'iOS AR Game',
         date: 'Fall 2018',
@@ -28,7 +80,7 @@ const projectData = [
             ]
     },
     {
-        id: 2,
+        id: 4,
         name: 'HackBeanpot',
         type: 'organization rebranding',
         date: 'Spring + Fall 2018',
@@ -65,7 +117,7 @@ const projectData = [
                 link:'https://www.everydayboston.org/'}]
     },
     {
-        id: 3,
+        id: 5,
         name: 'Everyday Boston',
         type: 'blog and marketing site',
         date: 'Fall 2017',
@@ -123,7 +175,7 @@ const projectData = [
                 link:'https://www.everydayboston.org/'}]
     },
     {
-        id: 4,
+        id: 6,
         name: 'wander',
         type: 'social-network web app',
         date: 'Summer 2017',
@@ -172,7 +224,7 @@ const projectData = [
                 link:'https://appleby-noah-webdev-project.herokuapp.com/'}]
     },
     {
-        id: 5,
+        id: 7,
         name: 'MeetingHabits',
         type: 'marketing website',
         date: 'Fall 2016',
@@ -232,7 +284,7 @@ const projectData = [
         }]
     },
     {
-        id: 6,
+        id: 8,
         name: 'myCampus',
         type: 'iOS application',
         date: 'Fall 2016',
@@ -287,7 +339,7 @@ const projectData = [
         }]
     },
     {
-        id: 7,
+        id: 9,
         name: 'myHousing',
         type: 'website prototype',
         date: 'Spring 2016',
