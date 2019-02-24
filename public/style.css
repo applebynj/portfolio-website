@@ -1,39 +1,62 @@
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tofino Personal', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 16.7435px;
+    text-align: center;
+}
+
+p a{
+    text-decoration: underline;
+    font-weight: 200;
+    line-height: normal;
 }
 
 h1 {
     font-size: 3em;
     margin: 0px;
-    margin-bottom: 0.5em;
+
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-size: 96px;
 }
 
 h2 {
     margin: 0, 1em;
+
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 24px;
 }
 
 button {
-    border: 2px teal solid;
-    background-color: transparent;
-    padding: 5px 10px;
+    border: 1.33468px black solid;
+    background-color: white;
+    padding: 10px 10px;
     text-align: center;
     font-style: italic;
-    font-size: 1em;
     outline: none;
-}
 
-.big-button { /*TODO: lol, clean this up, it late*/
-    font-size: 1.5em;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 18px;
 }
 
 button:hover {
     background-color: whitesmoke;
+}
+
+button.cta {
+    background-color: black;
+    color: white;
 }
 
 .font-bold {
@@ -55,13 +78,9 @@ button:hover {
     margin: 30px auto 0;
 }
 
-.serif {
-    font-family: 'Source Serif Pro', serif;
-}
-
-.gray-border-left {
-    border-left: 1px solid #979797;
-    padding-left: 25px;
+.border {
+    border: 1.33468px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Used for scroll animations */
@@ -94,8 +113,50 @@ button:hover {
 }
 
 #home-hello {
-    max-width: 500px;
+    max-width: 840px;
     margin: 0px 50px;
+}
+
+#home-hello #home-hello-header {
+    display: flex;
+    padding: 25px 50px;
+}
+
+#home-hello #home-hello-header h2 {
+    margin-left: 50px;
+}
+
+#home-hello #home-hello-body {
+    display: flex;
+    grid-gap: 50px;
+    padding: 50px;
+    font-weight: 200;
+    line-height: normal;
+    font-size: 18px;
+}
+
+#home-hello #home-hello-body ul {
+    list-style-type:none;
+    text-align:center;
+    width: 100%;
+}
+
+#home-hello #home-hello-body ul div {
+    margin-bottom: 50px;
+}
+
+#home-hello #home-hello-body ul button {
+    width: 175px;
+}
+
+#home-hello #home-hello-body li {
+    margin: 10px 0px;
+}
+
+#home-hello #home-hello-next {
+    padding: 5px;
+    margin-top: 25px;
+    text-align: center;
 }
 
 @media (min-width: 1200px) {

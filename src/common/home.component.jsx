@@ -45,11 +45,39 @@ class Home extends Component {
                 <div id="fullpage">
                     <div className="section">
                         <section className="center-container">
-                            <div id="home-hello" className="center gray-border-left">
-                                <h1 className="serif">Hello, welcome!</h1>
-                                <h2 className="font-light">
-                                    I'm Noah, a developer-designer with a passion for defining, building and evaluating user experiences. 
-                                </h2>
+                            <div id="home-hello" className="center">
+                                <div id="home-hello-header" className="border">  
+                                    <h1>Hello!</h1>
+                                    <h2 className="font-light">
+                                        I'm Noah, a developer-designer with a passion for defining, building and evaluating user experiences. 
+                                    </h2>
+                                </div>
+                                <div id="home-hello-body" className="border">
+                                    <div>
+                                        <p>
+                                            Thanks for stopping by, I hope you enjoy taking a look at some of my work.
+                                        </p>
+                                        <p>
+                                            I’m currently seeking internship opportunities for the summer, and will soon begin my search for a full-time gig; I graduate from Northeastern University in Spring 2020.
+                                        </p>
+                                        <p>
+                                            If you have any questions, comments, or cat photos to share, you can reach me via <a>email</a> or find me on <a>linkedin</a>. 
+                                        </p>
+                                    </div>
+                                    <ul>
+                                        <div>
+                                            <li><a>PROJECTS</a></li>
+                                            <li><a>ABOUT</a></li>
+                                        </div>
+                                        <div>
+                                            <li><button type="button" onClick={() => {{this.showAllCards()}}}>view resume →</button></li>
+                                            <li><button type="button" className="cta" onClick={() => {{this.showAllCards()}}}>contact →</button></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <div id="home-hello-next" className="border font-light">
+                                    SCROLL TO CONTINUE
+                                </div>
                             </div>
                         </section>
                     </div>
@@ -76,7 +104,6 @@ class Home extends Component {
                         <About> </About>
                     </div>
                 </div>
-                <Banner/>
             </div>
         );
     }
