@@ -352,14 +352,16 @@ button.cta {
 }
 
 .card-header {
+    display:flex;
+    justify-content: center;
     height: 80px;
     width: 100%;
     background-color: deepskyblue;
 }
 
 .card-header-icon {
-    float: left;
-    width: 33%;
+    float: right;
+    padding-right: 10px;
     height: 100%;
     line-height: 125px;
 }
