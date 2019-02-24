@@ -28,8 +28,8 @@ class Home extends Component {
             //options here TODO: update license key
             licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
             autoScrolling:true,
-            navigation:true,
-            navigationPosition: 'right',
+            // navigation:true,
+            // navigationPosition: 'right',
             anchors:['home', 'projects', 'about'],
             navigationTooltips: ['home', 'projects', 'about'],
             showActiveTooltip: true,
@@ -46,13 +46,13 @@ class Home extends Component {
                     <div className="section">
                         <section className="center-container">
                             <div id="home-hello" className="center">
-                                <div id="home-hello-header" className="border">  
+                                <div id="home-hello-header" className="border shadow">  
                                     <h1>Hello!</h1>
                                     <h2 className="font-light">
                                         I'm Noah, a developer-designer with a passion for defining, building and evaluating user experiences. 
                                     </h2>
                                 </div>
-                                <div id="home-hello-body" className="border">
+                                <div id="home-hello-body" className="border shadow">
                                     <div>
                                         <p>
                                             Thanks for stopping by, I hope you enjoy taking a look at some of my work.
@@ -86,21 +86,30 @@ class Home extends Component {
                     <div className="section">
                         <div id="home-projects">
                                 <div>
-                                    <ProjectCardDeck data={projects}></ProjectCardDeck>
-                                    <div id="featured-project">
-                                        <div>
-                                            <h2>Featured Project</h2>
-                                            <p>{projects[0].content[0].body}</p>
-                                            <Link to={"/projects/" + projects[0].name}>
-                                                <button type="button" className="serif">read more</button>
-                                            </Link>
+                                    <div id="featured-project" className = "shadow">
+                                        <div id="featured-project-content" className="border">
+
+                                            <ProjectCardDeck data={projects}></ProjectCardDeck>
+
+                                            <div id="featured-project-info">
+                                                <p>{projects[0].content[0].body}</p>
+                                                <ul>
+                                                    <li>
+                                                        <button type="button">read more →</button>
+                                                    </li>
+                                                    <li><Link to={"/projects/" + projects[0].name}>
+                                                        <button type="button" className="cta" onClick={() => {{this.showAllCards()}}}>all projects →</button>
+                                                    </Link></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div id="featured-project-header" className="border">
+                                                FEATURED PROJECT
                                         </div>
                                     </div>
                                 </div>
                         </div>
-                        <div id="home-projects-label">
-                            <button type="button" className="big-button serif" onClick={() => {{this.showAllCards()}}}>see all projects</button>
-                        </div> 
                     </div>
                     <div className="section">
                         <About> </About>

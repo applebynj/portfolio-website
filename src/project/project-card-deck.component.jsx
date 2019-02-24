@@ -7,7 +7,7 @@ class ProjectCardDeck extends Component {
         const projects = this.props.data;
 
         const deckStyle = {
-            transform:  'translate(' + ((projects.length - 1) * -50) / 2 + 'px, 0%)'
+            transform:  'translate(' + ((projects.length - 1) * 100) / 2 + 'px, 0%)'
         }
 
         const projectNode = projects.map((project) => {
