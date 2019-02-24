@@ -71,6 +71,14 @@ button.cta {
     font-weight: 200;
 }
 
+.arrow-down {
+    width: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+    border-top: 10px solid black;
+}
+  
 .site-container {
     width: 80%;
     padding: 0 3%;
@@ -90,8 +98,13 @@ button.cta {
     top: 20px;
 }
 
+.left {
+    float: left;
+}
 
-
+.right {
+    float: right;
+}
 
 .center-container {
     position: relative;
@@ -162,9 +175,13 @@ button.cta {
 }
 
 #home-hello #home-hello-next {
-    padding: 5px;
+    padding: 5px 25px;
     margin-top: 25px;
     text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (min-width: 1200px) {

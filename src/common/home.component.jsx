@@ -76,7 +76,9 @@ class Home extends Component {
                                     </ul>
                                 </div>
                                 <div id="home-hello-next" className="border font-light">
-                                    SCROLL TO CONTINUE
+                                    <div className="arrow-down left"></div>
+                                    <div>SCROLL TO CONTINUE</div>
+                                    <div className="arrow-down right"></div>
                                 </div>
                             </div>
                         </section>
