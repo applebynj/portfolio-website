@@ -132,6 +132,7 @@ class Home extends Component {
                         <About> </About>
                     </div>
                 </div>
+                {/* <Banner/> */}
             </div>
         );
     }
