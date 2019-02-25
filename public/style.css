@@ -221,7 +221,7 @@ button.cta:hover {
     }
 
     #home-hello #home-hello-body {
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     #home-hello-body-nav-links {
@@ -301,7 +301,7 @@ button.cta:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     #featured-project #featured-project-content {
         padding: 0px 10px;
     }
