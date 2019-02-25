@@ -25,8 +25,23 @@ class ProjectPage extends Component {
 
         project.cardStyle = {};
 
+    //     <section className="nav">
+    //     <Link
+    //         to={"/"}>
+    //         back to projects
+    //     </Link>
+    // </section>
+
         return (
-            <div className="site-container">
+            <div>
+                 <div id="nav">
+                    <div className="border shadow">
+                        <a id="nav-home" href="#home">01. HOME</a>
+                        <a id="nav-projects" href="#projects">02. PROJECTS</a>
+                        <a id="nav-about" href="#about">03. ABOUT</a>
+                    </div>
+                </div>
+                <div className="site-container">
                 <div id="project-details-card">
                     <div id="card-body">
                         {nextProject ?
@@ -53,13 +68,8 @@ class ProjectPage extends Component {
                 <section id="project-details-page" className="gray-border-left">
                      <ProjectDetails data={project.content}></ProjectDetails>
                 </section>
-                <section className="nav">
-                    <Link
-                        to={"/"}>
-                        back to projects
-                    </Link>
-                </section>
                 </div>
+        </div>
         );
     }
 }

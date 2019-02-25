@@ -6,6 +6,10 @@ class ProjectCardDeck extends Component {
     render(){
         const projects = this.props.data;
 
+        const deckStyle = {
+            transform:  'translate(' + ((projects.length - 1) * 100) / 2 + 'px, 0%)'
+        }
+
         const projectNode = projects.map((project) => {
             if(project.id <= 4) {
                 project.cardStyle = {
@@ -33,10 +37,9 @@ class ProjectCardDeck extends Component {
             )
         });
         return (
-            <div>
-                <ul id="project-cards">
-                    {projectNode}
-                </ul>
+            <div id="project-cards"
+                style = {deckStyle}>
+                {projectNode}
             </div>
         );
     }
