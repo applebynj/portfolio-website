@@ -66,12 +66,12 @@ class Home extends Component {
                                     </div>
                                     <ul>
                                         <div>
-                                            <li><a>PROJECTS</a></li>
-                                            <li><a>ABOUT</a></li>
+                                            <li><a href="#projects">PROJECTS</a></li>
+                                            <li><a href="#about">ABOUT</a></li>
                                         </div>
                                         <div>
-                                            <li><button type="button" onClick={() => {{this.showAllCards()}}}>view resume →</button></li>
-                                            <li><button type="button" className="cta" onClick={() => {{this.showAllCards()}}}>contact →</button></li>
+                                            <li><a href="https://drive.google.com/open?id=0Bww7MJCUkyYJdEVqdmtwZDRzdFE"><button type="button">view resume →</button></a></li>
+                                            <li><a href="mailto:appleby.n@husky.neu.edu"><button className="cta"  type="button">contact →</button></a></li>
                                         </div>
                                     </ul>
                                 </div>

@@ -76,6 +76,11 @@ button.cta {
     color: white;
 }
 
+button.cta:hover {
+    background-color: #1e1e1e;
+    color: white;
+}
+
 .font-bold {
     font-weight: 600;
 }
@@ -451,6 +456,10 @@ button.cta {
     background-color: #D1232A;
 }
 
+.card-bright-red .card-img{
+    background-color: #D1232A;
+}
+
 .card-calm-green {
     border-color: #29B57A;
 }
@@ -459,11 +468,20 @@ button.cta {
     background-color: #29B57A;
 }
 
+
+.card-calm-green .card-img{
+    background-color: #29B57A;
+}
+
 .card-dull-red {
     border-color: #C24447;
 }
 
 .card-dull-red .card-header{
+    background-color: #C24447;
+}
+
+.card-dull-red .card-img{
     background-color: #C24447;
 }
 
