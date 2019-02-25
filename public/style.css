@@ -589,20 +589,21 @@ button.cta:hover {
 
 #about-media img {
     margin-bottom: 30px;
-    width: 400px;
-    height: 250px;
     padding: 10px;
+    width: 100%;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     #about-media img {
-        width: 350px;
-        height: 218.75px;
+        width: 400px;
+        height: 250px;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #about-media img {
+        width: 350px;
+        height: 218.75px;
         float: none;
         display: block;
         margin: auto;
@@ -648,7 +649,6 @@ button.cta:hover {
 
 .business-card {
     float: left;
-    width: 350px;
     background-color: #FFFDFD;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
     padding: 25px;
@@ -656,6 +656,15 @@ button.cta:hover {
 
 .business-card button {
     margin-right: 25px;
+}
+
+@media (min-width: 768px) {
+    .business-card  {
+        width: 350px;
+        float: none;
+        display: block;
+        margin: 25px auto;
+    }
 }
 
 @media (max-width: 768px) {
