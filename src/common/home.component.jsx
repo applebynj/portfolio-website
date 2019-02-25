@@ -95,9 +95,7 @@ class Home extends Component {
                                 </div>
                                 <a href="#projects" className="font-light">
                                     <div id="home-hello-next" className="border shadow">
-                                            <div className="arrow-down left"></div>
-                                                SCROLL OR CLICK TO CONTINUE
-                                            <div className="arrow-down right"></div>
+                                            <div className="arrow-down"></div>
                                     </div>
                                 </a>
                             </div>
