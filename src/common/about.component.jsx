@@ -7,25 +7,9 @@ class About extends Component {
         return (
             <div>
                 <div className="site-container">
-                    <section id="about-media">
-                        <img src="media/img/noah.png"/>
-                        <div className="business-card">
-                            <div className="business-card-content">
-                                <h2 className="serif">Noah Appleby</h2>
-                                 available January 2018 - August 2018<br/>
-                                <span className="font-light">appleby.n@husky.neu.edu</span><br/><br/>
-                                <a href="https://drive.google.com/open?id=0Bww7MJCUkyYJdEVqdmtwZDRzdFE" target="_blank"
-                                   className="font-bold resume">view resume</a>
-                                <a href="https://www.github.com/applebynj" target="_blank"
-                                   className="fa fa-github" aria-hidden="true"></a>
-                                <a href="https://www.linkedin.com/in/noahappleby/" target="_blank"
-                                    className="fa fa-linkedin" aria-hidden="true"></a>
-                            </div>
-                        </div>
-                    </section>
                     <section id="about-text">
-                        <div className="gray-border-left">
-                            <p className="serif">
+                        <div className="border shadow">
+                            <p className="font-regular">
                                 I’m a New England native in his third year of a Computer Science and Design major at Northeastern University.
                             </p>
                             <p className="font-light">
@@ -37,8 +21,8 @@ class About extends Component {
                                 meal-prepping, and visiting home to see my cats.
                             </p>
                         </div>
-                        <div className="gray-border-left">
-                            <p className="serif">
+                        <div className="border shadow">
+                            <p className="font-regular">
                                 What am I up to?
                             </p>
                             <p className="font-light">
@@ -46,6 +30,21 @@ class About extends Component {
                                 completing my first co-op in mid-August, I spent my two week summer traveling out west (for the first time!!)
                                 to explore Seattle and San Francisco.
                             </p>
+                        </div>
+                    </section>
+                    <section id="about-media">
+                        <img className = "border shadow" src="media/img/noah.png"/>
+                        <div className="business-card border shadow">
+                            <div className="business-card-content">
+                                <h2 className="serif">Noah Appleby</h2>
+                                 available January 2018 - August 2018<br/>
+                                <span className="font-light">appleby.n@husky.neu.edu</span><br/><br/>
+                                <a href="https://drive.google.com/open?id=0Bww7MJCUkyYJdEVqdmtwZDRzdFE"><button type="button" className="cta">view resume →</button></a>
+                                <a href="https://www.github.com/applebynj" target="_blank"
+                                   className="fa fa-github" aria-hidden="true"></a>
+                                <a href="https://www.linkedin.com/in/noahappleby/" target="_blank"
+                                    className="fa fa-linkedin" aria-hidden="true"></a>
+                            </div>
                         </div>
                     </section>
                 </div>

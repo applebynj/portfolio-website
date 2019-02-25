@@ -495,6 +495,7 @@ button.cta:hover {
 
 #about-media {
     float: left;
+    margin-left: 5%;
     width: 40%;
 }
 
@@ -508,10 +509,10 @@ button.cta:hover {
 }
 
 #about-media img {
-    float: right;
     margin-bottom: 30px;
     width: 400px;
     height: 250px;
+    padding: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -532,8 +533,11 @@ button.cta:hover {
 #about-text {
     float: left;
     width: 45%;
-    margin-left: 50px;
-    margin-top: 40px;
+    margin-left: 5%;
+}
+
+#about-text div {
+    padding: 25px;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -560,11 +564,15 @@ button.cta:hover {
 }
 
 .business-card {
-    float: right;
-    height: 190px;
-    width: 300px;
+    float: left;
+    width: 350px;
     background-color: #FFFDFD;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    padding: 25px;
+}
+
+.business-card button {
+    margin-right: 25px;
 }
 
 @media (max-width: 768px) {
@@ -583,12 +591,6 @@ button.cta:hover {
     font-size: 30px;
     padding-right: 20px;
 }
-
-.business-card-content .resume {
-    padding-right: 80px;
-}
-
-
 
 @media (min-width: 768px) {
     #project-details-card{
