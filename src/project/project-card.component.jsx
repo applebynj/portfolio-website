@@ -33,8 +33,8 @@ class ProjectCard extends Component {
         return (
             <div className={'project-card card-' + project.color + ' preload'}
                      style={project.cardStyle} onMouseEnter = {() => { {this.mouseOver(project.id, project)}}}>
-                <Link
-                    to={"/projects/"+project.name}
+                <a /*TODO: turn back to Link once fullpage fixed */
+                    href={"/projects/"+project.name}
                     className="list-group-item"
                     key={project.id}>
                     <div className="card-header">
@@ -67,7 +67,7 @@ class ProjectCard extends Component {
                             </tr>
                         </table>
                     </div>
-                </Link>
+                </a>
             </div>
         )
     }

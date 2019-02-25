@@ -112,9 +112,9 @@ class Home extends Component {
                                             <div id="featured-project-info">
                                                 <p>{projects[0].content[0].body}</p>
                                                 <ul>
-                                                    <li><Link to={"/projects/" + projects[0].name}>
+                                                    <li><a href={"/projects/" + projects[0].name /*TODO: turn back to Link */}> 
                                                         <button type="button">read more →</button>
-                                                    </Link></li>
+                                                    </a></li>
                                                     <li>
                                                         <button type="button" className="cta" onClick={() => {{this.showAllCards()}}}>all projects →</button>
                                                     </li>
