@@ -210,12 +210,22 @@ button.cta:hover {
 }
 
 
-.nav {
-    position: absolute;
+#nav {
+    position: fixed;
     top: 50px;
-    right: 20%;
-    font-style: italic;
+    width: 100%;
     font-weight: 200;
+    z-index: 100;
+}
+
+#nav div {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#nav div a {
+    padding: 10px 50px;
 }
 
 #home-projects {

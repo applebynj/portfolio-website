@@ -33,6 +33,17 @@ class Home extends Component {
             anchors:['home', 'projects', 'about'],
             navigationTooltips: ['home', 'projects', 'about'],
             showActiveTooltip: true,
+  
+            //hide nav if on homepage
+            afterLoad: function(origin, destination, direction){
+                if(destination.index != 0){
+                    $('#nav').fadeIn();
+                    $('#nav-' + origin.anchor).removeClass("font-bold");
+                    $('#nav-' + destination.anchor).addClass("font-bold");
+                }else{
+                    $('#nav').fadeOut();   
+                }
+            }
         });
     }
 
@@ -42,6 +53,13 @@ class Home extends Component {
 
         return (
             <div>
+                <div id="nav" hidden>
+                    <div className="border shadow">
+                        <a id="nav-home" href="#home">01. HOME</a>
+                        <a id="nav-projects" href="#projects">02. PROJECTS</a>
+                        <a id="nav-about" href="#about">03. ABOUT</a>
+                    </div>
+                </div>
                 <div id="fullpage">
                     <div className="section">
                         <section className="center-container">
@@ -76,7 +94,7 @@ class Home extends Component {
                                     </ul>
                                 </div>
                                 <a href="#projects" className="font-light">
-                                    <div id="home-hello-next" className="border">
+                                    <div id="home-hello-next" className="border shadow">
                                             <div className="arrow-down left"></div>
                                                 SCROLL OR CLICK TO CONTINUE
                                             <div className="arrow-down right"></div>
