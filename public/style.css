@@ -34,14 +34,20 @@ li {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 42px;
     margin: 0px;
 
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    font-size: 96px;
 }
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 96px;
+    }
+}
+
 
 h2 {
     margin: 0, 1em;
@@ -103,12 +109,12 @@ button.cta:hover {
     margin: auto;
 }
   
-.site-container {
+/* .site-container {
     width: 80%;
     padding: 0 3%;
     max-width: 1200px;
     margin: 30px auto 0;
-}
+} */
 
 .border {
     border: 1.33468px solid #000000;
@@ -125,7 +131,7 @@ button.cta:hover {
     position: relative;
     top: 20px;
 }
-
+/* 
 .center-container {
     position: relative;
     text-align: center;
@@ -137,7 +143,7 @@ button.cta:hover {
     height: 100%;
     width: 1%;
     vertical-align: middle;
-}
+} */
 
 .center {
     text-align: left;
@@ -148,33 +154,27 @@ button.cta:hover {
 #home-hello {
     max-width: 840px;
     margin: 0px 50px;
-    margin-top: 50px;
+    margin-top: 100px;
     position:relative;
 }
 
 #home-hello #home-hello-header {
-    position: absolute;
-    display: flex;
     padding: 25px 50px;
-    left: -50px;
-    right: 50px;
+    left: 25px;
+    right: 25px;
     top: -50px;
 }
 
-#home-hello #home-hello-header h2 {
-    margin-left: 50px;
+#home-hello #home-hello-body {
+    padding: 20px 50px;
 }
 
-#home-hello #home-hello-body {
-    display: flex;
-    grid-gap: 50px;
-    padding: 20px 50px;
-    padding-top: 200px;
+#home-hello-body-nav-links {
+    display: none;
 }
 
 #home-hello #home-hello-body ul {
     text-align:center;
-    padding: 0px 60px;
 }
 
 #home-hello #home-hello-body ul div {
@@ -192,14 +192,45 @@ button.cta:hover {
 }
 
 @media (min-width: 1200px) {
-    #home-hello {
-        font-size: 16px;
+    #home-hello #home-hello-header {
+        display: flex;
+        left: 50px;
+        right: 50px;
+    }
+
+    #home-hello #home-hello-header h2 {
+        margin-left: 50px;
+    }
+
+    #home-hello #home-hello-body {
+        padding-top: 300px;
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 768px) {
+    #home-hello #home-hello-header {
+        position: absolute;
+    }
+
     #home-hello {
-        font-size: 16px;
+        margin-top: 50px;
+    }
+
+    #home-hello #home-hello-body {
+        display: flex;
+        grid-gap: 50px;
+    }
+
+    #home-hello #home-hello-body {
+        padding-top: 250px;
+    }
+
+    #home-hello-body-nav-links {
+        display: inline;
+    }
+
+    #home-hello #home-hello-body ul {
+        padding: 0px 60px;
     }
 }
 
@@ -231,27 +262,36 @@ button.cta:hover {
 #featured-project {
     display: inline-flex;
     text-align: left;
+    margin: 10px;
 }
-
 
 #featured-project-header {
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-
-    writing-mode: tb-rl;
-    text-align: center;
-    margin-left: -1px;
-    padding: 0px 10px;
+    display: none;
 }
 
-#featured-project #featured-project-content {
-    max-width: 980px;
-    padding: 0px 100px;
-    float: left;
-    display: flex;
+@media (min-width: 768px) {
+
+    #featured-project-header {
+        -webkit-transform: rotate(-180deg);
+        -moz-transform: rotate(-180deg);
+        -o-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+
+        writing-mode: tb-rl;
+        text-align: center;
+        margin-left: -1px;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #featured-project #featured-project-content {
+        max-width: 980px;
+        padding: 0px 10px;
+        float: left;
+        display: flex;
+    }
 }
 
 #featured-project #project-cards {
@@ -263,13 +303,13 @@ button.cta:hover {
     z-index:2;
 }
 
-@media (max-width: 830px) {
-    #featured-project {
+@media (max-width: 769px) {
+    #featured-project-info {
         display:none;
     }
 
     #home-projects {
-        height: 300px;
+        margin-top: 100px;
     }
 
     #project-cards {
@@ -294,22 +334,48 @@ button.cta:hover {
 
 #project-cards {
     display: inline-block;
-    width: 250px;
     vertical-align: top;
 }
 
 .project-card {
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     border: 15px solid deepskyblue;
     border-radius: 8px;
     background-color: #FFFDFD;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
     top: -50px;
+    margin: 50px 0px;
 }
 
-#home-projects .project-card {
-    position: absolute;
+.card-content-tags {
+    display:none;
+}
+
+@media (min-width: 768px) {
+    .project-card {
+        height: 400px;
+        width: 300px;
+    }
+
+    .card-content-tags {
+        display:inline;
+    }
+}
+
+
+@media (min-width: 768px) {
+    #home-projects .project-card {
+        position: absolute;
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 769px) {
+    #home-projects .project-card {
+        -webkit-transform: none !important;
+        transform: none !important;
+    }
 }
 
 /* for when user wants to see all cards */
@@ -629,10 +695,6 @@ button.cta:hover {
     font-size: 30px;
     text-align: center;
     margin-top: 20px;
-}
-
-@media(min-width: 769px) {
-
 }
 
 #project-details-card #next-project-card {

@@ -8,28 +8,30 @@ class About extends Component {
             <div>
                 <div className="site-container">
                     <section id="about-text">
-                        <div className="border shadow">
-                            <p className="font-regular">
-                                I’m a New England native in his third year of a Computer Science and Design major at Northeastern University.
-                            </p>
-                            <p className="font-light">
-                                Whether it be by picking up a new framework or building a product for an industry I’ve never even heard of
-                                (ideally both), I’m always up to learn something new. Then, before moving onto my next project, I treasure
-                                the ability to take on the teacher role and share what I’ve learned with others. <br /> <br />
+                        <div>
+                            <div className="border shadow">
+                                <p className="font-regular">
+                                    I’m a New England native in his third year of a Computer Science and Design major at Northeastern University.
+                                </p>
+                                <p className="font-light">
+                                    Whether it be by picking up a new framework or building a product for an industry I’ve never even heard of
+                                    (ideally both), I’m always up to learn something new. Then, before moving onto my next project, I treasure
+                                    the ability to take on the teacher role and share what I’ve learned with others. <br /> <br />
 
-                                When I’m not working, you can find me spending money on video games that I won’t find the time to play,
-                                meal-prepping, and visiting home to see my cats.
-                            </p>
-                        </div>
-                        <div className="border shadow">
-                            <p className="font-regular">
-                                What am I up to?
-                            </p>
-                            <p className="font-light">
-                                Along with my fall classes, I’m working as a developer/designer for both Scout Studio and HackBeanpot. After
-                                completing my first co-op in mid-August, I spent my two week summer traveling out west (for the first time!!)
-                                to explore Seattle and San Francisco.
-                            </p>
+                                    When I’m not working, you can find me spending money on video games that I won’t find the time to play,
+                                    meal-prepping, and visiting home to see my cats.
+                                </p>
+                            </div>
+                            <div className="border shadow">
+                                <p className="font-regular">
+                                    What am I up to?
+                                </p>
+                                <p className="font-light">
+                                    Along with my fall classes, I’m working as a developer/designer for both Scout Studio and HackBeanpot. After
+                                    completing my first co-op in mid-August, I spent my two week summer traveling out west (for the first time!!)
+                                    to explore Seattle and San Francisco.
+                                </p>
+                            </div>
                         </div>
                     </section>
                     <section id="about-media">

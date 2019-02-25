@@ -58,7 +58,7 @@ class ProjectCard extends Component {
                                 <th>DATE</th>
                                 <td><p>{project.date}</p></td>
                             </tr>
-                            <tr>
+                            <tr className="card-content-tags">
                                 <th>TAGS</th>
                                 <td><p>{project.tags.map((tag, i) => <span key={i}>
                                 {!!i && ", "}

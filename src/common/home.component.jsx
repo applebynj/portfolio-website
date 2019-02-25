@@ -33,6 +33,7 @@ class Home extends Component {
             anchors:['home', 'projects', 'about'],
             navigationTooltips: ['home', 'projects', 'about'],
             showActiveTooltip: true,
+            responsiveWidth: 768,
   
             //hide nav if on homepage
             afterLoad: function(origin, destination, direction){
@@ -83,7 +84,7 @@ class Home extends Component {
                                         </p>
                                     </div>
                                     <ul>
-                                        <div>
+                                        <div id="home-hello-body-nav-links">
                                             <li><a href="#projects">PROJECTS</a></li>
                                             <li><a href="#about">ABOUT</a></li>
                                         </div>
@@ -103,30 +104,28 @@ class Home extends Component {
                     </div>
                     <div className="section">
                         <div id="home-projects">
-                                <div>
-                                    <div id="featured-project" className = "shadow">
-                                        <div id="featured-project-content" className="border">
+                            <div id="featured-project" className = "shadow">
+                                <div id="featured-project-content" className="border">
 
-                                            <ProjectCardDeck data={projects}></ProjectCardDeck>
+                                    <ProjectCardDeck data={projects}></ProjectCardDeck>
 
-                                            <div id="featured-project-info">
-                                                <p>{projects[0].content[0].body}</p>
-                                                <ul>
-                                                    <li><a href={"/projects/" + projects[0].name /*TODO: turn back to Link */}> 
-                                                        <button type="button">read more →</button>
-                                                    </a></li>
-                                                    <li>
-                                                        <button type="button" className="cta" onClick={() => {{this.showAllCards()}}}>all projects →</button>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                        <div id="featured-project-header" className="border">
-                                                FEATURED PROJECT
-                                        </div>
+                                    <div id="featured-project-info">
+                                        <p>{projects[0].content[0].body}</p>
+                                        <ul>
+                                            <li><a href={"/projects/" + projects[0].name /*TODO: turn back to Link */}> 
+                                                <button type="button">read more →</button>
+                                            </a></li>
+                                            <li>
+                                                <button type="button" className="cta" onClick={() => {{this.showAllCards()}}}>all projects →</button>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
+
+                                <div id="featured-project-header" className="border">
+                                        FEATURED PROJECT
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="section">
