@@ -106,3 +106,26 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Tofino';
+    src: url('TofinoPersonal-Light.eot');
+    src: url('TofinoPersonal-Light.eot?#iefix') format('embedded-opentype'),
+        url('TofinoPersonal-Light.woff2') format('woff2'),
+        url('TofinoPersonal-Light.woff') format('woff'),
+        url('TofinoPersonal-Light.ttf') format('truetype'),
+        url('TofinoPersonal-Light.svg#TofinoPersonal-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tofino';
+    src: url('TofinoPersonal-LightItalic.eot');
+    src: url('TofinoPersonal-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('TofinoPersonal-LightItalic.woff2') format('woff2'),
+        url('TofinoPersonal-LightItalic.woff') format('woff'),
+        url('TofinoPersonal-LightItalic.ttf') format('truetype'),
+        url('TofinoPersonal-LightItalic.svg#TofinoPersonal-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}

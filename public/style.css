@@ -12,15 +12,14 @@ a {
 }
 
 p {
-    font-weight: 200;
     line-height: normal;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 p a{
     text-decoration: underline;
-    font-weight: 200;
     line-height: normal;
+    font-weight: 300;
 }
 
 ul {
@@ -95,7 +94,7 @@ button.cta:hover {
 }
 
 .font-light {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .arrow-down {
@@ -238,7 +237,6 @@ button.cta:hover {
     position: fixed;
     top: 50px;
     width: 100%;
-    font-weight: 200;
     z-index: 100;
 }
 
@@ -599,7 +597,7 @@ button.cta:hover {
 #about-media {
     float: left;
     margin-left: 5%;
-    width: 40%;
+    width: 30%;
 }
 
 @media (max-width: 768px) {
@@ -636,7 +634,7 @@ button.cta:hover {
 
 #about-text {
     float: left;
-    width: 45%;
+    width: 60%;
     margin-left: 5%;
 }
 
