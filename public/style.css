@@ -211,7 +211,7 @@ button.cta:hover {
 @media (min-width: 1200px) {
     #home-hello #home-hello-header {
         display: flex;
-        left: 50px;
+        left: -50px;
         right: 50px;
     }
 
@@ -860,7 +860,7 @@ button.cta:hover {
     position:fixed;
     bottom:0;
     width: 100%;
-    background-color: #009999;
+    background-color: white;
     opacity: 0.75;
     z-index:200 !important;
 }
@@ -872,10 +872,6 @@ button.cta:hover {
 }
 
 #text-banner .container h4 {
-    font-family: 'Source Sans Pro', serif;
-    font-weight: 100;
-    font-style: italic;
-    color: white;
     text-align: center; /* Moves the text banner text to the left, center, or right -- your preference! */
 }
 
