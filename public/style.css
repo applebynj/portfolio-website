@@ -56,6 +56,15 @@ h2 {
     font-size: 24px;
 }
 
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: -1px;
+    text-align: center;
+}
+
 button {
     border: 1.33468px black solid;
     background-color: white;
@@ -112,6 +121,16 @@ button.cta:hover {
     padding: 0 3%;
     max-width: 1200px;
     margin: 30px auto 0;
+}
+
+/* JQuery UI Accordion classes*/
+
+.ui-accordion-header-active {
+    font-weight: 600;
+}
+
+.ui-state-focus {
+    outline: none;
 }
 
 .border {
@@ -634,8 +653,9 @@ button.cta:hover {
 
 #about-text {
     float: left;
-    width: 60%;
+    width: 50%;
     margin-left: 5%;
+    margin-top: 50px;
 }
 
 #about {
@@ -644,6 +664,7 @@ button.cta:hover {
 
 #about-text div {
     padding: 25px;
+    overflow-y: scroll;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -662,11 +683,6 @@ button.cta:hover {
         margin-top: 20px;
         margin-bottom: 50px;
     }
-}
-
-
-#about-text div {
-    margin-bottom: 40px;
 }
 
 .business-card {
