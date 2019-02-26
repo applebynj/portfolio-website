@@ -549,6 +549,30 @@ button.cta:hover {
 }
 
 /* Card colors (TODO: add const for colors / pull from data instead) */
+.card-process-black {
+    border-color: #1e1e1e;
+}
+
+.card-process-black .card-header{
+    background-color: #1e1e1e;
+}
+
+.card-process-black .card-img{
+    background-color: #1e1e1e;
+}
+
+.card-go-local-yellow {
+    border-color: #FFDD17;
+}
+
+.card-go-local-yellow .card-header{
+    background-color: #FFDD17;
+}
+
+.card-go-local-yellow .card-img{
+    background-color: #FFDD17;
+}
+
 .card-switch-tell-blue {
     border-color: #5080C0;
 }

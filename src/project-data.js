@@ -10,21 +10,23 @@ const projectData = [
                'mock-up creation',
                'content creation',
                'multi-medium'],
-        color: 'switch-tell-blue',
-        icon: 'media/img/SwitchAndTell/logo.png',
-        image: 'media/img/SwitchAndTell/preview.png',
+        color: 'go-local-yellow',
+        icon: 'media/img/GoLocal/logo.png',
+        image: 'media/img/GoLocal/preview.png',
         liveLink: 'https://devpost.com/software/switch-tell',
         githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
         content: [
-            {body:"I attended Wellesley Hacks in November of 2018 and ~finally~ had the"
-                + " opportunity to build an AR project with two friends of mine. More info"
-                + " is coming here soon!"},
-            {img:'SwitchAndTell/intro.jpg'},
-            {body:"In the mean time, feel free to check out our Devpost listing for more info"
-                +" and a video demo!",
-                link:'https://devpost.com/software/switch-tell'},
-            {img:'SwitchAndTell/screens.jpg'},
-            {img:'SwitchAndTell/friends.jpg'}
+            {body:"In the fall of 2018, I created a social-cause outreach campaign for Graphic Design 2. The focus"
+                + " of my campaign was considering the impact of convenience. Aiming to explore the impacts and ethics"
+                + " of advancements in automation that I contribute to with my work in computer science, I asked my"
+                + " audience to get to know their communities and become a part of them."},
+            {img:'GoLocal/posters.png'},
+            /* series, system, context */
+            {img:'GoLocal/signs.png'},
+            /* finding a direction */
+            {img:'GoLocal/collateral.png'},
+            /* pushing through discomfort */
+            {img:'GoLocal/video.png'}
             ]
     },
     {
@@ -32,25 +34,20 @@ const projectData = [
         name: 'Watch Process',
         type: 'instructional diagram',
         date: 'Fall 2018',
-        tags: ['app development',
-               'AR',
-               'iOS',
-               'hackathon project'],
-        color: 'switch-tell-blue',
-        icon: 'media/img/SwitchAndTell/logo.png',
-        image: 'media/img/SwitchAndTell/preview.png',
+        tags: ['info design',
+                'process',
+                'instruction',
+                'diagram'],
+        color: 'process-black',
+        icon: 'media/img/Process/logo.png',
+        image: 'media/img/Process/preview.png',
         liveLink: 'https://devpost.com/software/switch-tell',
         githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
         content: [
-            {body:"I attended Wellesley Hacks in November of 2018 and ~finally~ had the"
-                + " opportunity to build an AR project with two friends of mine. More info"
-                + " is coming here soon!"},
-            {img:'SwitchAndTell/intro.jpg'},
-            {body:"In the mean time, feel free to check out our Devpost listing for more info"
-                +" and a video demo!",
-                link:'https://devpost.com/software/switch-tell'},
-            {img:'SwitchAndTell/screens.jpg'},
-            {img:'SwitchAndTell/friends.jpg'}
+            {body:"In the fall of 2018, I designed a set of instructions detailing how to assemble a"
+                + " classic wristwatch for an Information Design course. My goal was to use as little text "
+                + " possible while still conveying the intricacies of the process."},
+            {img:'Process/wristwatch.png'},
             ]
     },
     {
