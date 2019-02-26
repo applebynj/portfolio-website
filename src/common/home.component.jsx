@@ -72,7 +72,7 @@ class Home extends Component {
                                     </h2>
                                 </div>
                                 <div id="home-hello-body" className="border shadow">
-                                    <div>
+                                    <div className="font-light">
                                         <p>
                                             Thanks for stopping by, I hope you enjoy taking a look at some of my work.
                                         </p>
@@ -109,7 +109,7 @@ class Home extends Component {
 
                                     <ProjectCardDeck data={projects}></ProjectCardDeck>
 
-                                    <div id="featured-project-info">
+                                    <div id="featured-project-info" className="font-light">
                                         <p>{projects[0].content[0].body}</p>
                                         <ul>
                                             <li><a href={"/projects/" + projects[0].name /*TODO: turn back to Link */}> 

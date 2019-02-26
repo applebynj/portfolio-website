@@ -335,10 +335,16 @@ button.cta:hover {
     z-index:2;
 }
 
+@media (max-width: 1000px) and (min-width: 769px) {
+    #featured-project #project-cards {
+        transform: translate(100px, 0%) !important; /*todo, temp, no longer need translate to be dynamic so can make this truly responsive*/
+    }    
+}
+
 @media (max-width: 769px) {
     #featured-project-info {
-        display:none;
-    }
+        display: none;
+    }    
 
     #home-projects {
         margin-top: 100px;

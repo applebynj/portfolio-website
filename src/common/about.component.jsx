@@ -3,13 +3,18 @@ import { Link } from 'react-router';
 import Banner from './banner.component.jsx';
 
 class About extends Component {
+
+    componentDidMount() {
+        $("#about-text").accordion();
+    }
     render(){
         return (
             <div>
                 <div className="site-container">
                     <div id="#about">
-                        <section id="about-text">
-                                <div className="border shadow">
+                        <section id="about-text" className="border shadow">
+                                <h4 className="border">values</h4>
+                                <div>
                                     <p className="font-regular">
                                         I’m a New England native in his third year of a Computer Science and Design major at Northeastern University.
                                     </p>
@@ -24,9 +29,10 @@ class About extends Component {
                                         long at a grocery store and loving it.
                                     </p>
                                 </div>
-                                <div className="border shadow">
+                                <h4 className="border">happening now</h4>
+                                <div>
                                     <p className="font-regular">
-                                        What am I up to?
+                                        What am I up to currently?
                                     </p>
                                     <p className="font-light">
                                       For the first time in a while, I'm in classes for a second consecutive semester. I'm the only undergrad out on 
@@ -36,6 +42,15 @@ class About extends Component {
                                       day-to-day and exploring this new city, excited to see what opportunity I come across next!
                                     </p>
                                 </div>
+                                {/* <h4 className="border">brief timeline</h4>
+                                <div>
+                                    <p className="font-regular">
+                                        How have I spent the last 21 years?
+                                    </p>
+                                    <p className="font-light">
+                                      See my resume for more details, but here's a quick glance at what I've been up to.
+                                    </p>
+                                </div> */}
                         </section>
                         <section id="about-media">
                             <img className = "border shadow" src="media/img/noah.png"/>

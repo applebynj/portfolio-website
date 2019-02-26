@@ -7,7 +7,7 @@ class ProjectCardDeck extends Component {
         const projects = this.props.data;
 
         const deckStyle = {
-            transform:  'translate(' + ((projects.length - 1) * 100) / 2 + 'px, 0%)'
+            transform:  'translate(' + 200 + 'px, 0%)'
         }
 
         const projectNode = projects.map((project) => {
@@ -18,14 +18,15 @@ class ProjectCardDeck extends Component {
                     zIndex: (100 - project.id),
                     transformOrigin: '50% 100%',
                 };
-            } else {
-                project.cardStyle = {
-                    transform:  'rotate(-' + (project.id - 1) * 5 + 'deg)' +
-                                'translate(' + (((project.id - 1) * -50) + (40 * (project.id - 4)))  + 'px, 0%)',
-                    zIndex: (100 - project.id),
-                    transformOrigin: '50% 100%',
-                };
-            }
+            } 
+            // else {
+            //     project.cardStyle = {
+            //         transform:  'rotate(-' + (project.id - 1) * 5 + 'deg)' +
+            //                     'translate(' + (((project.id - 1) * -50) + (40 * (project.id - 4)))  + 'px, 0%)',
+            //         zIndex: (100 - project.id),
+            //         transformOrigin: '50% 100%',
+            //     };
+            // }
 
 
             project.hover = {
