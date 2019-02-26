@@ -16,7 +16,7 @@ class About extends Component {
                                 <h4 className="border">values</h4>
                                 <div>
                                     <p className="font-regular">
-                                        I’m a New England native in his third year of a Computer Science and Design major at Northeastern University.
+                                        I’m a New England native in his fourth year of a Computer Science and Design major at Northeastern University.
                                     </p>
                                     <p className="font-light">
                                         Whether it be by picking up a new framework or diving into a new industry, I’m always up to learn something new. 
@@ -56,8 +56,9 @@ class About extends Component {
                             <img className = "border shadow" src="media/img/noah.png"/>
                             <div className="business-card border shadow">
                                 <div className="business-card-content">
-                                    <h2 className="serif">Noah Appleby</h2>
-                                    available January 2018 - August 2018<br/>
+                                    <h2>Noah Appleby</h2>
+                                    available May - September 2019<br/>
+                                    graduating Spring 2020<br/>
                                     <span className="font-light">appleby.n@husky.neu.edu</span><br/><br/>
                                     <a href="https://drive.google.com/open?id=0Bww7MJCUkyYJdEVqdmtwZDRzdFE"><button type="button" className="cta">view resume →</button></a>
                                     <a href="https://www.github.com/applebynj" target="_blank"

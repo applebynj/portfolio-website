@@ -80,7 +80,7 @@ class Home extends Component {
                                             I’m currently seeking internship opportunities for the summer, and will soon begin my search for a full-time gig; I graduate from Northeastern University in Spring 2020.
                                         </p>
                                         <p>
-                                            If you have any questions, comments, or cat photos to share, you can reach me via <a >email</a> or find me on <a href="https://www.linkedin.com/in/noahappleby">linkedin</a>. 
+                                            If you have any questions, comments, or cat photos to share, you can reach me via <a href="mailto:appleby.n@husky.neu.edu">email</a> or find me on <a href="https://www.linkedin.com/in/noahappleby">linkedin</a>. 
                                         </p>
                                     </div>
                                     <ul>
