@@ -392,6 +392,7 @@ button.cta:hover {
 }
 
 @media (min-width: 768px) {
+    
     .project-card {
         height: 400px;
         width: 300px;
@@ -498,10 +499,18 @@ button.cta:hover {
 .card-header-text {
     float: left;
     color: #FFFFFF;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 70px;
+}
+
+
+@media (min-width: 768px) {
+
+    .card-header-text {
+        font-size: 24px;
+    }
 }
 
 .card-content {
@@ -581,6 +590,10 @@ button.cta:hover {
     background-color: #5080C0;
 }
 
+.card-switch-tell-blue .card-img{
+    background-color: #5080C0;
+}
+
 .card-hbp-teal {
     border-color: #1B365D;
 }
@@ -589,11 +602,20 @@ button.cta:hover {
     background-color: #1B365D;
 }
 
+.card-hbp-teal .card-img{
+    background-color: #1B365D;
+}
+
 .card-calm-blue {
     border-color: #21759b;
 }
 
 .card-calm-blue .card-header{
+    background-color: #21759b;
+}
+
+
+.card-calm-blue .card-img{
     background-color: #21759b;
 }
 

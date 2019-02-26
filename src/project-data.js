@@ -95,7 +95,15 @@ const projectData = [
                 + "of everything we do! Stepping into a leadership role for this process has been an absolute joy. "
                 + "I've continued to learn the power of mentorship, and how effective a leader who trusts in the "
                 + "process they've created and the abilities of their team can really be."},
-                {body: "This is just a small taste of what we've been up to, but please stay tuned for more details!"},
+                {   img:'HackBeanpot/design-team.jpg',
+                    body: "We're a small team of just three, each with responsibilities on other teams in the organization."
+                    + " We definitely had our hands full this year, but we're proud of the foundation we've set."},
+                {img:"HackBeanpot/activity.jpg",
+                    body:"Our rebrand this year wasn't just a visual refresh. We started by establishing values which we"
+                    + " worked with the entire organization to follow. With this being our seventh annual event, we decided"
+                    + " that it was time to take what we called 'calculated risks'. Establishing core values and this attitude "
+                    + " of encouragement to taking risks empowered other teams to innovate in ways we couldn't have imagined."
+                    + " For example, we built the above individual activity to help hackers brainstorm their goals!"},
                 {img:'HackBeanpot/brand-guide.png',
                 body: "Establishing brand guidelines early, such as this example of color usage, has allowed us to "
                 +   "build and roll-out the brand over time. We've prioritized maintaining transparency with the "
@@ -104,14 +112,14 @@ const projectData = [
                 body: "For example, our social team has been able to practice implementing the brand in progress, providing us "
                 +   "valuable insight and in-turn helping shape the brand. By getting parts of the brand in front of our "
                 +   "audience early, far ahead of the event, we have been able to fine-tune details with confidence."},
-                {img:"HackBeanpot/old-site.png",
-                body:"Here's a taste of our prior website and logo. Our major motivation in rebranding was to "
+                {img:"HackBeanpot/site.png",
+                body:"Here's a taste of our website before and after our refresh. Our major motivation in rebranding was to "
                 +   "establish a more friendly brand, in line with our target audience of first time hackers. "
                 +   "Therefore, we led with establishing brand values and a core identity across all five "
                 +   "of our internal teams as a prerequisite to overhauling our visual identity."},
-                {img:'HackBeanpot/new-site.png'},
-                {body:"Check out our new site!",
-                link:'https://www.everydayboston.org/'}]
+                {img:'HackBeanpot/team.jpg'},
+                {body:"Check out our site!",
+                link:'https://www.hackbeanpot.com/'}]
     },
     {
         id: 5,
