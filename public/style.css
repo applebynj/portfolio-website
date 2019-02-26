@@ -861,7 +861,6 @@ button.cta:hover {
     bottom:0;
     width: 100%;
     background-color: white;
-    opacity: 0.75;
     z-index:200 !important;
 }
 
@@ -876,7 +875,6 @@ button.cta:hover {
 }
 
 #text-banner .container h4 a {
- color: white;
  font-weight: 400;
 }​
 
