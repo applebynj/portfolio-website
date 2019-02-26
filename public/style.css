@@ -315,6 +315,8 @@ button.cta:hover {
         text-align: center;
         margin-left: -1px;
         padding: 0px 10px;
+
+        display: inline;
     }
 }
 
