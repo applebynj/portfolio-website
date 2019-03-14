@@ -53,7 +53,7 @@ class About extends Component {
                                 </div> */}
                         </section>
                         <section id="about-media">
-                            <img className = "border shadow" src="media/img/noah.png"/>
+                            <img className = "border shadow" src="media/img/noah.jpg"/>
                             <div className="business-card border shadow">
                                 <div className="business-card-content">
                                     <h2>Noah Appleby</h2>
