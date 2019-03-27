@@ -16,15 +16,26 @@ const projectData = [
         liveLink: 'https://devpost.com/software/switch-tell',
         githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
         content: [
-            {body:"In the fall of 2018, I created a social-cause outreach campaign for Graphic Design 2. The focus"
-                + " of my campaign was considering the impact of convenience. Aiming to explore the impacts and ethics"
+            {body:"In the fall of 2018, I created a social-cause outreach campaign which calls on users to"
+                + " consider the impact of convenience. Aiming to explore the impacts and ethics"
                 + " of advancements in automation that I contribute to with my work in computer science, I asked my"
                 + " audience to get to know their communities and become a part of them."},
             {img:'GoLocal/posters.png'},
+            {body:"I pushed myself outside my comfort zone by using photography and illustration as key "
+                + "brand components. These mediums expressed two qualities that are unique to local communities: "
+                + "personalized service and hand-crafted appeal. Both of these qualities stand in strong contrast "
+                + "to the abstract visuals common in convenience services."},
             /* series, system, context */
             {img:'GoLocal/signs.png'},
+            {body:"Go Local is more than a brand, it's a series of interventions which guide users through "
+                + "stages of awareness, action and representation. The signage modeled above interrupts "
+                + "the experience of grocery shopping in order to encourage exploration; repositioning "
+                + "the environment as a learning opportunity for kids."},
             /* finding a direction */
             {img:'GoLocal/collateral.png'},
+            {body:"The campaign's identity acts as a direct call-to-action for its purpose. Therefore, brand collateral "
+                + " such as the tote bag above enables simultaneous brand representation and user action through "
+                + " the inclusion of a map insert."},
             /* pushing through discomfort */
             {img:'GoLocal/video.png'}
             ]
