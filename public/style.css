@@ -870,8 +870,12 @@ button.cta:hover {
 }
 
 
+#project-details-page h2{
+    margin-top: 60px;
+}
+
 #project-details-page section{
-    margin-bottom: 60px;
+    margin-top: 40px;
 }
 
 #project-details-page img{
@@ -887,6 +891,15 @@ button.cta:hover {
     font-size: 24px;
     font-style: italic;
     color:teal;
+}
+
+#project-details-page .img-link{
+    width: 100%;
+    text-align: center;
+}
+
+#project-details-page .img-link a{
+    font-size: 16px;
 }
 
 #project-details-page a:hover {
