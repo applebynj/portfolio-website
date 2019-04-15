@@ -39,7 +39,7 @@ class ProjectCard extends Component {
                     key={project.id}>
                     <div className="card-header">
                         <div className="card-header-icon">
-                            <img src={project.icon}/>
+                            {project.icon ? (<img src={project.icon}/>) : '' }
                         </div>
                         <div className="card-header-text">
                             {project.name}
