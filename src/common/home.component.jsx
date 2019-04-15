@@ -5,22 +5,57 @@ import About from './about.component.jsx';
 import Banner from './banner.component.jsx';
 import fullpage from 'fullpage.js';
 
+
+/*TODO import from project-data*/
+const CAT_DESIGN = 'design';
+const CAT_DEV = 'dev';
+const CAT_WRITING = 'writing';
+
 class Home extends Component {
+
+    constructor(props) {
+        super(props);
+        this.toggleActive= this.toggleActive.bind(this);
+        this.state = {
+            designActive: true,
+            devActive: true,
+            writingActive: true,
+        };
+    }
 
     showAllCards(){
         if($('.all-cards').length > 0) {
             $('#home-projects').removeClass("all-cards");
             $('#project-cards').removeClass("all-cards");
-            $('.project-card').removeClass("all-cards");
             $('#featured-project-info').removeClass("all-cards");
+            $('#filters').removeClass("all-cards");
             $('#featured-project-header').html("ALL PROJECTS");
         } else {
             $('#home-projects').addClass("all-cards");
             $('#project-cards').addClass("all-cards");
-            $('.project-card').addClass("all-cards");
+            $('#filters').addClass("all-cards");
             $('#featured-project-info').addClass("all-cards");
             $('#featured-project-header').html("ALL PROJECTS");
         }
+    };
+
+    toggleActive(name) {
+        var currentState;
+        switch(name) {
+            case CAT_DESIGN:
+                currentState = this.state.designActive;
+                this.setState({designActive:!currentState});
+                break;
+            case CAT_DEV:
+                currentState = this.state.devActive;
+                this.setState({devActive:!currentState});
+                break;
+            case CAT_WRITING:
+                currentState = this.state.writingActive;    
+                this.setState({writingActive:!currentState});
+                break;
+        }
+        this.forceUpdate();
     };
 
     componentDidMount() {
@@ -107,7 +142,7 @@ class Home extends Component {
                             <div id="featured-project" className = "shadow">
                                 <div id="featured-project-content" className="border">
 
-                                    <ProjectCardDeck data={projects}></ProjectCardDeck>
+                                    <ProjectCardDeck data={projects} filters={this.state}></ProjectCardDeck>
 
                                     <div id="featured-project-info" className="font-light">
                                         <p>{projects[0].content[0].body}</p>
@@ -116,7 +151,7 @@ class Home extends Component {
                                                 <button type="button">read more →</button>
                                             </a></li>
                                             <li>
-                                                <button type="button" className="cta" onClick={() => {{this.showAllCards()}}}>all projects →</button>
+                                                <button type="button" className="cta" onClick={() => this.showAllCards()}>all projects →</button>
                                             </li>
                                         </ul>
                                     </div>
@@ -125,6 +160,13 @@ class Home extends Component {
                                 <div id="featured-project-header" className="border">
                                         FEATURED PROJECT
                                 </div>
+                            </div>
+                            <div id="filters">
+                                <button className={this.state.devActive ? 'active': null} onClick={() => this.toggleActive(CAT_DEV)}>DEVELOPMENT</button>
+                                <button className={this.state.designActive ? 'active': null} onClick={() => this.toggleActive(CAT_DESIGN)}>DESIGN</button>
+                                <button className={this.state.writingActive ? 'active': null} onClick={() => this.toggleActive(CAT_WRITING)}>WRITING</button>
+                                <p>Apply filters by clicking the above buttons.</p> 
+
                             </div>
                         </div>
                     </div>

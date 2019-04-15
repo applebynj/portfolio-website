@@ -1,5 +1,10 @@
 /* TODO: Replace with CMS */
 
+const CAT_DESIGN = 'design';
+const CAT_DEV = 'dev';
+const CAT_WRITING = 'writing';
+const CAT_DESIGN_DEV = 'design+dev';
+
 const projectData = [
     {
         id: 1,
@@ -10,6 +15,7 @@ const projectData = [
                'research',
                'proposal',
                'project planning'],
+        category: CAT_WRITING,
         color: 'process-black',
         image: 'media/img/AdvancedWriting/doc3.png',
         content: [
@@ -66,6 +72,7 @@ const projectData = [
                'mock-up creation',
                'content creation',
                'multi-medium'],
+        category: CAT_DESIGN,
         color: 'go-local-yellow',
         icon: 'media/img/GoLocal/logo.png',
         image: 'media/img/GoLocal/preview.png',
@@ -105,6 +112,7 @@ const projectData = [
                 'process',
                 'instruction',
                 'diagram'],
+        category: CAT_DESIGN,
         color: 'process-black',
         icon: 'media/img/Process/logo.png',
         image: 'media/img/Process/preview.png',
@@ -126,6 +134,7 @@ const projectData = [
                'AR',
                'iOS',
                'hackathon project'],
+        category: CAT_DEV,
         color: 'switch-tell-blue',
         icon: 'media/img/SwitchAndTell/logo.png',
         image: 'media/img/SwitchAndTell/preview.png',
@@ -153,6 +162,7 @@ const projectData = [
                'print design',
                'team lead',
                 'event planning'],
+        category: CAT_DESIGN,
         color: 'hbp-teal',
         icon: 'media/img/HackBeanpot/logo.png',
         image: 'media/img/HackBeanpot/preview.png',
@@ -197,6 +207,7 @@ const projectData = [
                'web development',
                'web design',
                'design consultation'],
+        category: CAT_DESIGN_DEV,
         color: 'calm-blue',
         icon: 'media/img/EverydayBoston/logo.png',
         image: 'media/img/EverydayBoston/preview.png',
@@ -253,6 +264,7 @@ const projectData = [
         date: 'Summer 2017',
         tags: ['MEAN Stack',
                'full-stack web development'],
+        category: CAT_DEV,
         color: 'teal',
         icon: 'media/img/wander/logo.png',
         image: 'media/img/wander/preview.png',
@@ -304,6 +316,7 @@ const projectData = [
                'website development',
                'product UX',
                'Bootstrap' ],
+        category: CAT_DESIGN_DEV,
         color: 'calm-green',
         icon: 'media/img/MeetingHabits/logo.png',
         image: 'media/img/MeetingHabits/preview.png',
@@ -366,6 +379,7 @@ const projectData = [
                'user testing',
                'usability studies',
                'prototyping'],
+        category: CAT_DESIGN_DEV,
         color: 'dull-red',
         icon: 'media/img/myCampus/logo.png',
         image: 'media/img/myCampus/preview.png',
@@ -421,6 +435,7 @@ const projectData = [
                'Sketch',
                'pain-point analysis',
                'brand redesign'],
+        category: CAT_DESIGN,
         color: 'bright-red',
         icon: 'media/img/myHousing/logo.png',
         image: 'media/img/myHousing/preview.png',
