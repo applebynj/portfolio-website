@@ -35,9 +35,11 @@ class ProjectDetails extends Component {
 
             return (
                 <section>
-                    <h2 className="hide-me">{content.head}</h2>
+                    {content.head && <h2 className="hide-me">{content.head}</h2>}
+                    {content.link && <div className="img-link"><a className="hide-me" href={content.link} target="_blank">
                     {content.img && <img className="hide-me" src= {'../media/img/' + content.img}/>}
-                    {content.link && <a className="hide-me" href={content.link} target="_blank">{content.body}</a>}
+                    {content.link && content.body}</a></div>}
+                    {!content.link && content.img && <img className="hide-me" src= {'../media/img/' + content.img}/>}
                     {!content.link &&<p className="hide-me">{content.body}</p>}
                     {content.list && <ul className="hide-me">{listContent}</ul>}
                 </section>
