@@ -3,6 +3,62 @@
 const projectData = [
     {
         id: 1,
+        name: 'Technical Writing',
+        type: 'document series',
+        date: 'Spring 2019',
+        tags: ['writing',
+               'research',
+               'proposal',
+               'project planning'],
+        color: 'process-black',
+        image: 'media/img/AdvancedWriting/doc3.png',
+        content: [
+            /*Intro*/
+            {body:"In the Spring of 2019, I explored the impacts of persuasive design in a semester-long technical writing class. Being a year away from graduation and entering into the real-world, I aimed to better understand the ethical impacts of popular industry practices such as A/B testing, user-data collection and their resulting design decisions."
+                + " "},
+            {body:"Over the course of four assignments, I developed and utilized an understanding of the current industry discussions around persuasive design in order to propose a plan of action to both professional and public audiences. "
+                + "As a series, these documents showcase my ability to take historical and ethical concerns into account when generating solutions to problems. Additionally, they demonstrate self-guided research, an iterative workflow and an ability to speak appropriately to varied audiences."},
+            /*Doc 1*/
+            {head:'Identifying the Issue', 
+                body:"As a member of both tech and design communities, I hold a personal perspective on this issue built off of my direct experiences. Therefore, it was important for me to begin this process by taking a look at the larger picture and identifying a core conflict."
+            },
+            {body:"My first of four documents is a synthesis of this research process. Written for an audience of peers in my field, this document provides historical context to the models and processes that are pervasive in the intersection of design and development. Furthermore, it provides a rhetorical analysis of a research document which demonstrates the cognitive impacts of technology according to a study conducted by its authors. Ultimately, this document communicates my cohesive understanding of this issue and establishes the need to pursue it further.",
+                img: 'AdvancedWriting/screen-time.jpg',
+            },
+            {body:"Document 1: Research Inquiry",
+                img: 'AdvancedWriting/doc1.png',
+                link:'https://drive.google.com/file/d/1Bz3CC3jQWyXYn2JWJbAQHQmI3oNZY1cD'
+            },
+            /*Doc 2 + 3*/
+            {head:'Proposing Actionable Change', 
+                body:"Having established an issue, my natural next step was to propose a solution. Feedback at this step was crucial, as the resulting document was more than just an artifact of my work. Instead, it was a complete, deliverable proposal to the audience which I identified to be in a position to enact change. Given this increased scope, I began this document by writing a memo which communicated an understanding of the audience, context, genre and tentative outline of my piece."
+            },
+            {body:"Document 2: Memo",
+                img: 'AdvancedWriting/doc2.png',
+                link:'https://drive.google.com/file/d/1yhUtPNsOfVCyNnlYcHnVAzFiU3QkAvpk'
+            },
+            {body:"The discussions which followed the creation of this memo enabled me to refine my focus before executing on my plan. The largest refinement made regarded my audience, which was narrowed down from a pair of companies, to a single one. This may seem trivial, but it altered the perspective of every piece of my argument. By removing any sense of generality, I was able to create a much stronger argument.",
+            },
+            {body:"Finally, it came time to execute on my plan. Having fleshed out the content of my piece, in execution I was able to focus on aspects of writing style which my argument leaned on. Tonally, it was important to establish a level of professionalism which reinforced my background and understanding of the issue. Structurally, with an understanding that my document could end up in the hands of individuals with varied backgrounds, it was important to create a document which had a variety of entry points and a clear layout. ",
+                img: 'AdvancedWriting/screen-time.jpg',
+            },
+            {body:"Document 3: Proposal",
+                img: 'AdvancedWriting/doc3.png',
+                link:'https://drive.google.com/file/d/1HRGrGglBN84A_iJU6ayCOWhFRQcA7VLG'
+            },
+            /*Doc 4*/
+            {head:'Translating for a Public Audience', 
+                body:"Having developed and exercised a professional voice to drive change from within, my final step in this process was to translate my issue to the public. In contrast to the long-term changes that my proposal suggested to my industry peers, I decided to suggest short-term changes to the end-users of technology. In order to accomplish this, I had to translate my issue into language which an average reader would understand. Ultimately, I decided to write a blog post for parents, with the motive of protecting their children from the negative impacts of persuasive design.",
+                img: 'AdvancedWriting/kid-phone.jpg',
+            }, {
+                body:"Document 4: Blog Post",
+                img: 'AdvancedWriting/doc4.png',
+                link:'https://medium.com/@appleby.n/7b8eec2112ee',
+            }
+            ]
+    },
+    {
+        id: 2,
         name: 'Go Local',
         type: 'branding and application',
         date: 'Fall 2018',
@@ -41,7 +97,7 @@ const projectData = [
             ]
     },
     {
-        id: 2,
+        id: 3,
         name: 'Watch Process',
         type: 'instructional diagram',
         date: 'Fall 2018',
@@ -62,7 +118,7 @@ const projectData = [
             ]
     },
     {
-        id: 3,
+        id: 4,
         name: 'Switch & Tell',
         type: 'iOS AR Game',
         date: 'Fall 2018',
@@ -88,7 +144,7 @@ const projectData = [
             ]
     },
     {
-        id: 4,
+        id: 5,
         name: 'HackBeanpot',
         type: 'organization rebranding',
         date: 'Spring + Fall 2018',
@@ -133,7 +189,7 @@ const projectData = [
                 link:'https://www.hackbeanpot.com/'}]
     },
     {
-        id: 5,
+        id: 6,
         name: 'Everyday Boston',
         type: 'blog and marketing site',
         date: 'Fall 2017',
@@ -191,7 +247,7 @@ const projectData = [
                 link:'https://www.everydayboston.org/'}]
     },
     {
-        id: 6,
+        id: 7,
         name: 'wander',
         type: 'social-network web app',
         date: 'Summer 2017',
@@ -240,7 +296,7 @@ const projectData = [
                 link:'https://appleby-noah-webdev-project.herokuapp.com/'}]
     },
     {
-        id: 7,
+        id: 8,
         name: 'MeetingHabits',
         type: 'marketing website',
         date: 'Fall 2016',
@@ -300,7 +356,7 @@ const projectData = [
         }]
     },
     {
-        id: 8,
+        id: 9,
         name: 'myCampus',
         type: 'iOS application',
         date: 'Fall 2016',
@@ -355,7 +411,7 @@ const projectData = [
         }]
     },
     {
-        id: 9,
+        id: 10,
         name: 'myHousing',
         type: 'website prototype',
         date: 'Spring 2016',
