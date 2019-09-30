@@ -16,7 +16,7 @@ class About extends Component {
                                 <h4 className="border">values</h4>
                                 <div>
                                     <p className="font-regular">
-                                        I’m a New England native in his fourth year of a Computer Science and Design major at Northeastern University.
+                                        I’m a New England native in my fifth year of a Computer Science and Design degree at Northeastern University.
                                     </p>
                                     <p className="font-light">
                                         Whether it be by picking up a new framework or diving into a new industry, I’m always up to learn something new. 
@@ -35,11 +35,11 @@ class About extends Component {
                                         What am I up to currently?
                                     </p>
                                     <p className="font-light">
-                                      For the first time in a while, I'm in classes for a second consecutive semester. I'm the only undergrad out on 
-                                      Seattle's Northeastern campus, which means I'm living outside of New England for the first time ever!
-                                      While I'm out here, I'm working in IT on campus to help with an expansion project and am still acting as the 
-                                      Design Team Lead for HackBeanpot. I'm not yet sure what's up next– for now I'm enjoying a comparatively calm 
-                                      day-to-day and exploring this new city, excited to see what opportunity I come across next!
+                                        After living outside of New England for the first time by spending my last semester in Seattle,
+                                        I'm now back in Boston to wrap up my degree. In addition to classes, I'm working part-time as a
+                                        developer/designer at <a href="https://junodesign.studio">Juno Design</a> and serving as a Project Lead
+                                        at Northeastern's Student-Led Product Studio <a href="https://northeastern.edu/generate">Generate</a>. In the 
+                                        meanwhile, I'm trying to soak up all I can of Boston in this possible final year here!
                                     </p>
                                 </div>
                                 {/* <h4 className="border">brief timeline</h4>
@@ -57,8 +57,7 @@ class About extends Component {
                             <div className="business-card border shadow">
                                 <div className="business-card-content">
                                     <h2>Noah Appleby</h2>
-                                    available May - September 2019<br/>
-                                    graduating Spring 2020<br/>
+                                    available May 2020<br/>
                                     <span className="font-light">appleby.n@husky.neu.edu</span><br/><br/>
                                     <a href="https://drive.google.com/open?id=0Bww7MJCUkyYJdEVqdmtwZDRzdFE"><button type="button" className="cta">view resume →</button></a>
                                     <a href="https://www.github.com/applebynj" target="_blank"
