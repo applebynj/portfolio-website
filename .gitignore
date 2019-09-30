@@ -1,8 +1,0 @@
-node_modules
-.idea
-.DS_Store
-bundle.js
-bundle.js.map
-npm-debug.log
-public/jquery.min.js
-package-lock.json
