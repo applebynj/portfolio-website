@@ -6,13 +6,22 @@ class Banner extends Component {
     render(){
         return (
             <div id="text-banner">
-                <div className="container border"><a href="/projects/Technical%20Writing"><h4>This is a beta version of my portfolio for ENGW3302. Changes include:
-                    <br></br>
-                    (1) adding new project page for writing (click to view)
-                    <br></br>
-                    (2) adding beta filter feature which can be accessed by clicking "all projects" button on the projects page.
-                    <br></br>
-                </h4></a></div>
+                <div className="container border"><a><h4>SITE BETA CHANGE LIST (FOR ENGW3302 FINAL, CLICK TO HIDE)</h4>
+                    <p>                       
+                         <ol>
+                            <li>
+                            Added new project card / page: "Technical Writing"
+                            </li>
+                            <li>
+                            Added beta filter feature to communicate the different 'pillars' of areas of experience that I'd bring to a product management job.
+                            <br></br>
+                            Can be accessed by clicking "all projects" button on the projects page. 
+                            </li>
+                            Live site can be viewed at noahappleby.com for comparison. Feature 2 needs further testing and tinkering before going live.
+                        </ol>
+                    </p>
+                    </a>
+                </div>
             </div>
         );
     }
