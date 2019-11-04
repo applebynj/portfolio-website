@@ -18,7 +18,6 @@ function fireTracking() {
 render(
     <Router history={browserHistory} onUpdate={fireTracking}>
         <Route path="/" component={Home} data={projectData}/>
-        <Route path="/about" component={About}/>
         <Route path="/projects/:name" component={ProjectPage} data={projectData}/>
     </Router>,
     document.getElementById('container')

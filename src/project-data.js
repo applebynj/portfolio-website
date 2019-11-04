@@ -3,45 +3,57 @@
 const projectData = [
     {
         id: 1,
-        name: 'Go Local',
+        name: 'Admithub',
         type: 'branding and application',
-        date: 'Fall 2018',
-        tags: ['brand development',
-               'mock-up creation',
-               'content creation',
-               'multi-medium'],
-        color: 'go-local-yellow',
-        icon: 'media/img/GoLocal/logo.png',
-        image: 'media/img/GoLocal/preview.png',
-        liveLink: 'https://devpost.com/software/switch-tell',
-        githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
+        date: 'Spring - Winter 2019',
+        tags: ['web development',
+               'print design',
+               'info design',
+               'project management'],
+        color: 'admithub-purple',
+        icon: 'media/img/Admithub/logo.png',
+        image: 'media/img/Admithub/preview.png',
+        liveLink: 'https://www.admithub.com/',
         content: [
-            {body:"In the fall of 2018, I created a social-cause outreach campaign which calls on users to"
-                + " consider the impact of convenience. Aiming to explore the impacts and ethics"
-                + " of advancements in automation that I contribute to with my work in computer science, I asked my"
-                + " audience to get to know their communities and become a part of them."},
-            {img:'GoLocal/posters.png'},
-            {body:"I pushed myself outside my comfort zone by using photography and illustration as key "
-                + "brand components. These mediums expressed two qualities that are unique to local communities: "
-                + "personalized service and hand-crafted appeal. Both of these qualities stand in strong contrast "
-                + "to the abstract visuals common in convenience services."},
-            /* series, system, context */
-            {img:'GoLocal/signs.png'},
-            {body:"Go Local is more than a brand, it's a series of interventions which guide users through "
-                + "stages of awareness, action and representation. The signage modeled above interrupts "
-                + "the experience of grocery shopping in order to encourage exploration; repositioning "
-                + "the environment as a learning opportunity for kids."},
-            /* finding a direction */
-            {img:'GoLocal/collateral.png'},
-            {body:"The campaign's identity acts as a direct call-to-action for its purpose. Therefore, brand collateral "
-                + " such as the tote bag above enables simultaneous brand representation and user action through "
-                + " the inclusion of a map insert."},
-            /* pushing through discomfort */
-            {img:'GoLocal/video.png'}
+            {body:"Since Spring 2019, I've been managing a retainer client relationship with a young tech company that "
+                + "is changing the way universities recruit, enroll, and communicate students. On a weekly basis I've taken "
+                + "on a variety of challenges, exercising my diverse skill set in design and development work while also building "
+                + "my skills in management as I handle relationships with contractors for areas outside of it."},
+                {img:'Admithub/before-after.png',},
+                {body:'My main focus has been on web design and development, adding new content libraries to the site and '
+                    + 'educating their team in how to use it. In addition, I have worked on:',
+                list:['- Overhauling the homepage (shown above).',
+                        '- Slide/presentation redesign and branding.',
+                        "- Packaging design.",
+                        '- Introducing illustrations into the brand.',
+                        '- A brand refresh and accompanying style guide.',
+                        '- Print design of guides, including infographics.']},
+                {img:'Admithub/home.png'},
             ]
     },
     {
         id: 2,
+        name: 'About Fresh',
+        type: 'branding and application',
+        date: 'Summer 2018',
+        tags: ['web development',
+               'Wordpress',
+               'client relations'],
+        color: 'aboutfresh-green',
+        icon: 'media/img/AboutFresh/logo.png',
+        image: 'media/img/AboutFresh/preview.png',
+        liveLink: 'https://www.aboutfresh.org/',
+        content: [
+            {body:"In the summer of 2018, I developed a website to launch an organizational rebrand at AboutFresh, formerly known "
+                + "as Freshtruck. This project involved collaboration with a designer and flexibility throughout the process "
+                + "as we put a new brand into use. Additionally, I had the opportunity to present the final site to the client and "
+                + "educate them on how to maintain it."},
+                {img:'AboutFresh/before-after.png'},
+                {img:'AboutFresh/home.png'},
+            ]
+    },
+    {
+        id: 3,
         name: 'Watch Process',
         type: 'instructional diagram',
         date: 'Fall 2018',
@@ -62,7 +74,7 @@ const projectData = [
             ]
     },
     {
-        id: 3,
+        id: 4,
         name: 'Switch & Tell',
         type: 'iOS AR Game',
         date: 'Fall 2018',
@@ -88,7 +100,7 @@ const projectData = [
             ]
     },
     {
-        id: 4,
+        id: 5,
         name: 'HackBeanpot',
         type: 'organization rebranding',
         date: 'Spring + Fall 2018',
@@ -133,7 +145,7 @@ const projectData = [
                 link:'https://www.hackbeanpot.com/'}]
     },
     {
-        id: 5,
+        id: 6,
         name: 'Everyday Boston',
         type: 'blog and marketing site',
         date: 'Fall 2017',
@@ -191,7 +203,7 @@ const projectData = [
                 link:'https://www.everydayboston.org/'}]
     },
     {
-        id: 6,
+        id: 7,
         name: 'wander',
         type: 'social-network web app',
         date: 'Summer 2017',
@@ -240,7 +252,7 @@ const projectData = [
                 link:'https://appleby-noah-webdev-project.herokuapp.com/'}]
     },
     {
-        id: 7,
+        id: 8,
         name: 'MeetingHabits',
         type: 'marketing website',
         date: 'Fall 2016',
@@ -300,7 +312,7 @@ const projectData = [
         }]
     },
     {
-        id: 8,
+        id: 9,
         name: 'myCampus',
         type: 'iOS application',
         date: 'Fall 2016',
@@ -355,7 +367,7 @@ const projectData = [
         }]
     },
     {
-        id: 9,
+        id: 10,
         name: 'myHousing',
         type: 'website prototype',
         date: 'Spring 2016',

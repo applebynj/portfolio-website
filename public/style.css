@@ -558,6 +558,31 @@ button.cta:hover {
 }
 
 /* Card colors (TODO: add const for colors / pull from data instead) */
+
+.card-aboutfresh-green {
+    border-color: #48AC55;
+}
+
+.card-aboutfresh-green .card-header{
+    background-color: #48AC55;
+}
+
+.card-aboutfresh-green .card-img{
+    background-color: #48AC55;
+}
+
+.card-admithub-purple {
+    border-color: #6F2163;
+}
+
+.card-admithub-purple .card-header{
+    background-color: #6F2163;
+}
+
+.card-admithub-purple .card-img{
+    background-color: #6F2163;
+}
+
 .card-process-black {
     border-color: #1e1e1e;
 }
