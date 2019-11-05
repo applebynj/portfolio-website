@@ -15,7 +15,7 @@ const projectData = [
         image: 'media/img/Admithub/preview.png',
         liveLink: 'https://www.admithub.com/',
         content: [
-            {body:"Since Spring 2019, I've been managing a retainer client relationship with a young tech company that "
+            {body:"Since Spring 2019, I've been managing a retainer client relationship between Juno Design and a young tech company that "
                 + "is changing the way universities recruit, enroll, and communicate students. On a weekly basis I've taken "
                 + "on a variety of challenges, exercising my diverse skill set in design and development work while also building "
                 + "my skills in management as I handle relationships with contractors for areas outside of it."},
@@ -44,7 +44,7 @@ const projectData = [
         image: 'media/img/AboutFresh/preview.png',
         liveLink: 'https://www.aboutfresh.org/',
         content: [
-            {body:"In the summer of 2018, I developed a website to launch an organizational rebrand at AboutFresh, formerly known "
+            {body:"While working with Juno Design in the summer of 2018, I led development of a website to launch an organizational rebrand at AboutFresh, formerly known "
                 + "as Freshtruck. This project involved collaboration with a designer and flexibility throughout the process "
                 + "as we put a new brand into use. Additionally, I had the opportunity to present the final site to the client and "
                 + "educate them on how to maintain it."},
