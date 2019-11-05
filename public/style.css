@@ -269,7 +269,7 @@ button.cta:hover {
     padding: 10px 10px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     nav {
         width: 100%;
     }
@@ -382,8 +382,6 @@ button.cta:hover {
     border-radius: 8px;
     background-color: #FFFDFD;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-    top: -50px;
-    margin: 50px 0px;
     overflow-y: hidden;
 }
 
@@ -391,7 +389,7 @@ button.cta:hover {
     display:none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     
     .project-card {
         height: 400px;
@@ -506,7 +504,7 @@ button.cta:hover {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
 
     .card-header-text {
         font-size: 24px;
@@ -806,27 +804,17 @@ button.cta:hover {
     padding-right: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     #project-details-card{
         position: fixed;
         float: left;
         top: 50%;
-        margin-top: -150px; /* Half of the height */
+        margin-top: -200px;
         z-index: 10;
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-    #project-details-card .project-card{
-        margin-left: -50px;
-    }
-    #project-details-card #card-links{
-        margin-left: -50px;
-
-    }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     #project-details-card .project-card{
         margin: auto;
         margin-top: 150px; /* Half of the height */
@@ -839,7 +827,6 @@ button.cta:hover {
 
 
 #project-details-card #card-links{
-    width: 255px;
     font-size: 30px;
     text-align: center;
     margin-top: 20px;
@@ -867,7 +854,7 @@ button.cta:hover {
     transform: rotate(-5deg) translate(-100px, -80px);
 }
 
-@media(max-width: 769px) {
+@media(max-width: 991px) {
     #next-project-card, #last-project-card {
         display: none;
     }
@@ -886,11 +873,11 @@ button.cta:hover {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     #project-details-page{
         float:left;
         position: absolute;
-        margin-left: 30%;
+        margin-left: 35%;
         margin-right: 10%;
         top: 15%;
 

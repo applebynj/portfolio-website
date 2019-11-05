@@ -44,6 +44,7 @@ class ProjectPage extends Component {
                 <div className="site-container">
                 <div id="project-details-card">
                     <div id="card-body">
+
                         {nextProject ?
                              <div id="next-project-card">
                                 <ProjectCard  data={nextProject}/>
@@ -53,21 +54,22 @@ class ProjectPage extends Component {
                          <div id="last-project-card">
                              <ProjectCard data={lastProject}/>
                          </div>
-                            : null}
+                            : null} 
+
                         <ProjectCard data={project}/>
 
                     </div>
                     <div id="card-links">
                         {project.githubRepo && <a href={project.githubRepo} target="_blank"
                            className="fa fa-github" aria-hidden="true"></a>}
-                        {project.liveLink && <a href={project.liveLink} target="_blank"
-                           className="fa fa-external-link-square" aria-hidden="true"></a>}
+                        {project.liveLink && <a href={project.liveLink} target="_blank"className="fa fa-external-link-square" aria-hidden="true"></a>}
                     </div>
                 </div>
 
                 <section id="project-details-page" className="gray-border-left">
                      <ProjectDetails data={project.content}></ProjectDetails>
                 </section>
+
                 </div>
         </div>
         );
