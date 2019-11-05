@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import ModalImage from "react-modal-image";
 
 class ProjectDetails extends Component {
 
@@ -36,7 +37,7 @@ class ProjectDetails extends Component {
             return (
                 <section>
                     <h2 className="hide-me">{content.head}</h2>
-                    {content.img && <img className="hide-me" src= {'../media/img/' + content.img}/>}
+                    {content.img && <ModalImage className="hide-me project-details-image" small= {'../media/img/' + content.img} medium= {'../media/img/' + content.img} hideDownload='true' hideZoom='true'/>}
                     {content.link && <a className="hide-me" href={content.link} target="_blank">{content.body}</a>}
                     {!content.link &&<p className="hide-me">{content.body}</p>}
                     {content.list && <ul className="hide-me">{listContent}</ul>}

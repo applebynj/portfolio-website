@@ -899,11 +899,11 @@ button.cta:hover {
     margin-bottom: 60px;
 }
 
-#project-details-page img{
-    width: 100%;
+#project-details-page .project-details-image{
     display: block;
     margin: 0 auto;
-    max-width: 500px;
+    width: auto;
+    max-height: 50vh !important;
 }
 
 #project-details-page a{
@@ -992,4 +992,14 @@ button.cta:hover {
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
     opacity: 0;
+}
+
+/* React Modal Image */
+.__react_modal_image__header {
+    background-color: white !important;
+    border-bottom: 1px solid black;
+}
+
+.__react_modal_image__header svg {
+    fill: black !important;
 }
