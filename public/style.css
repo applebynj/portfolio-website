@@ -750,6 +750,12 @@ button.cta:hover {
     float: right;
 }
 
+@media (max-width: 992px) {
+    #about-experience-text i {
+        display: none;
+    }
+}
+
 #about {
     margin-top: 100px;
 }

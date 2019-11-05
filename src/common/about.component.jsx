@@ -50,7 +50,7 @@ class About extends Component {
                                     </p>
 
                                     <p>
-                                        <span className="font-regular">Project Lead</span> <span className="font-light"> - </span> <span className="font-regular"><a href="https://web.northeastern.edu/generate/">Generate Product Development</a></span>
+                                        <span className="font-regular">Project Lead</span> <span className="font-light"> - </span> <span className="font-regular"><a href="https://web.northeastern.edu/generate/">Generate Product Dev.</a></span>
                                         <i className="font-light">ongoing , 2019</i>
                                     </p>
 
