@@ -42,6 +42,43 @@ class About extends Component {
                                         meanwhile, I'm trying to soak up all I can of Boston in this possible final year here!
                                     </p>
                                 </div>
+                                <h4 className="border">Experience</h4>
+                                <div id="about-experience-text">
+                                    <p>
+                                        <span className="font-regular">Project Manager</span> <span className="font-light"> - </span> <span className="font-regular"> <a href="https://junodesign.studio">Juno Design</a></span>
+                                        <i className="font-light">ongoing , 2019</i>
+                                    </p>
+
+                                    <p>
+                                        <span className="font-regular">Project Lead</span> <span className="font-light"> - </span> <span className="font-regular"><a href="https://web.northeastern.edu/generate/">Generate Product Development</a></span>
+                                        <i className="font-light">ongoing , 2019</i>
+                                    </p>
+
+                                    <p>
+                                        <span className="font-regular">Software Engineer</span> <span className="font-light"> - </span> <span className="font-regular"><a href="https://www.asicsdigital.com/">ASICS Digital</a></span>
+                                        <i className="font-light">6 months , 2018</i>
+                                    </p>
+
+                                    <p>
+                                        <span className="font-regular">Design Lead</span> <span className="font-light"> - </span> <span className="font-regular"><a href="http://hackbeanpot.com">Hackbeanpot</a></span>
+                                        <i className="font-light">2 years , 2017-2018</i>
+                                    </p>
+
+                                    <p>
+                                        <span className="font-regular">Developer/Designer</span> <span className="font-light"> - </span> <span className="font-regular"><a href="https://web.northeastern.edu/scout/">Scout Design</a></span>
+                                        <i className="font-light">semesterly , 2016-2018</i>
+                                    </p>
+
+                                    <p>
+                                        <span className="font-regular">Full-Stack Engineer</span> <span className="font-light"> - </span> <span className="font-regular"><a href="https://w3.poweradvocate.com/">PowerAdvocate</a></span>
+                                        <i className="font-light">6 months , 2017</i>
+                                    </p>
+
+                                    <p>
+                                        <span className="font-regular">IT Analyst</span> <span className="font-light"> - </span> <span className="font-regular"><a href="https://its.northeastern.edu/">Northeastern ITS</a></span>
+                                        <i className="font-light">3 years , 2015-2019</i>
+                                    </p>
+                                </div>
                                 {/* <h4 className="border">brief timeline</h4>
                                 <div>
                                     <p className="font-regular">

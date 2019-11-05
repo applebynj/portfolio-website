@@ -738,6 +738,10 @@ button.cta:hover {
     margin-top: 50px;
 }
 
+#about-experience-text i {
+    float: right;
+}
+
 #about {
     margin-top: 100px;
 }

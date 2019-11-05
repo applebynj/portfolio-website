@@ -77,7 +77,7 @@ class Home extends Component {
                                             Thanks for stopping by, I hope you enjoy taking a look at some of my work.
                                         </p>
                                         <p>
-                                            I graduate from Northeastern University in Spring 2020 and am currently seeking full-time opportunities.
+                                            I graduate from Northeastern University in Spring 2020 and am <span className="font-regular">currently seeking full-time opportunities.</span>
                                         </p>
                                         <p>
                                             If you have any questions, comments, or cat photos to share, you can reach me via <a href="mailto:appleby.n@husky.neu.edu">email</a> or find me on <a href="https://www.linkedin.com/in/noahappleby">linkedin</a>. 
