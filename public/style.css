@@ -999,8 +999,16 @@ button.cta:hover {
 .__react_modal_image__header {
     background-color: white !important;
     border-bottom: 1px solid black;
+    width: fit-content !important;
+    right: 10px !important;
 }
 
 .__react_modal_image__header svg {
     fill: black !important;
+    height: 30 !important;
+    width: 30 !important;
+}
+
+.__react_modal_image__icon_menu a {
+    margin-left: 0px !important;
 }
