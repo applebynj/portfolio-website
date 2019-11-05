@@ -208,6 +208,12 @@ button.cta:hover {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    #home-hello #home-hello-next {
+        display: none;
+    }
+}
+
 @media (min-width: 1200px) {
     #home-hello #home-hello-header {
         display: flex;
@@ -383,6 +389,10 @@ button.cta:hover {
     background-color: #FFFDFD;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
     overflow-y: hidden;
+}
+
+#home-projects .project-card {
+    margin: 50px 0px;
 }
 
 .card-content-tags {
