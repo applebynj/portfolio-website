@@ -4,7 +4,7 @@ const projectData = [
     {
         id: 1,
         name: 'Admithub',
-        type: 'branding and application',
+        type: 'long-term consulting',
         date: 'Spring - Winter 2019',
         tags: ['web development',
                'print design',
@@ -34,7 +34,7 @@ const projectData = [
     {
         id: 2,
         name: 'About Fresh',
-        type: 'branding and application',
+        type: 'organization website',
         date: 'Summer 2018',
         tags: ['web development',
                'Wordpress',
@@ -51,9 +51,47 @@ const projectData = [
                 {img:'AboutFresh/before-after.png'},
                 {img:'AboutFresh/home.png'},
             ]
+    }, {
+    id: 3,
+        name: 'Go Local',
+        type: 'branding and application',
+        date: 'Fall 2018',
+        tags: ['brand development',
+               'mock-up creation',
+               'content creation',
+               'multi-medium'],
+        color: 'go-local-yellow',
+        icon: 'media/img/GoLocal/logo.png',
+        image: 'media/img/GoLocal/preview.png',
+        liveLink: 'https://devpost.com/software/switch-tell',
+        githubRepo: 'https://github.com/ctlnwng/switch-n-tell/',
+        content: [
+            {body:"In the fall of 2018, I created a social-cause outreach campaign which calls on users to"
+                + " consider the impact of convenience. Aiming to explore the impacts and ethics"
+                + " of advancements in automation that I contribute to with my work in computer science, I asked my"
+                + " audience to get to know their communities and become a part of them."},
+            {img:'GoLocal/posters.png'},
+            {body:"I pushed myself outside my comfort zone by using photography and illustration as key "
+                + "brand components. These mediums expressed two qualities that are unique to local communities: "
+                + "personalized service and hand-crafted appeal. Both of these qualities stand in strong contrast "
+                + "to the abstract visuals common in convenience services."},
+            /* series, system, context */
+            {img:'GoLocal/signs.png'},
+            {body:"Go Local is more than a brand, it's a series of interventions which guide users through "
+                + "stages of awareness, action and representation. The signage modeled above interrupts "
+                + "the experience of grocery shopping in order to encourage exploration; repositioning "
+                + "the environment as a learning opportunity for kids."},
+            /* finding a direction */
+            {img:'GoLocal/collateral.png'},
+            {body:"The campaign's identity acts as a direct call-to-action for its purpose. Therefore, brand collateral "
+                + " such as the tote bag above enables simultaneous brand representation and user action through "
+                + " the inclusion of a map insert."},
+            /* pushing through discomfort */
+            {img:'GoLocal/video.png'}
+            ]
     },
     {
-        id: 3,
+        id: 4,
         name: 'Watch Process',
         type: 'instructional diagram',
         date: 'Fall 2018',
@@ -74,7 +112,7 @@ const projectData = [
             ]
     },
     {
-        id: 4,
+        id: 5,
         name: 'Switch & Tell',
         type: 'iOS AR Game',
         date: 'Fall 2018',
@@ -100,7 +138,7 @@ const projectData = [
             ]
     },
     {
-        id: 5,
+        id: 6,
         name: 'HackBeanpot',
         type: 'organization rebranding',
         date: 'Spring + Fall 2018',
@@ -145,7 +183,7 @@ const projectData = [
                 link:'https://www.hackbeanpot.com/'}]
     },
     {
-        id: 6,
+        id: 7,
         name: 'Everyday Boston',
         type: 'blog and marketing site',
         date: 'Fall 2017',
@@ -203,7 +241,7 @@ const projectData = [
                 link:'https://www.everydayboston.org/'}]
     },
     {
-        id: 7,
+        id: 8,
         name: 'wander',
         type: 'social-network web app',
         date: 'Summer 2017',
@@ -252,7 +290,7 @@ const projectData = [
                 link:'https://appleby-noah-webdev-project.herokuapp.com/'}]
     },
     {
-        id: 8,
+        id: 9,
         name: 'MeetingHabits',
         type: 'marketing website',
         date: 'Fall 2016',
@@ -312,7 +350,7 @@ const projectData = [
         }]
     },
     {
-        id: 9,
+        id: 10,
         name: 'myCampus',
         type: 'iOS application',
         date: 'Fall 2016',
@@ -367,7 +405,7 @@ const projectData = [
         }]
     },
     {
-        id: 10,
+        id: 11,
         name: 'myHousing',
         type: 'website prototype',
         date: 'Spring 2016',
